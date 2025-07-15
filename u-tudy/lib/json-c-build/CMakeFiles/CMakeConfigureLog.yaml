@@ -1,0 +1,2248 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:10 (project)"
+    message: |
+      The system is: Linux - 4.18.0-553.el8_10.x86_64 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:10 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/3.26.5/CompilerIdC/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:10 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-zPRIoE"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-zPRIoE"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-zPRIoE
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a6625/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a6625.dir/build.make CMakeFiles/cmTC_a6625.dir/build
+        gmake[1]: Entering directory '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-zPRIoE'
+        Building C object CMakeFiles/cmTC_a6625.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_a6625.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-redhat-linux
+        Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.rockylinux.org/ --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl --disable-libmpx --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+        Thread model: posix
+        gcc version 8.5.0 20210514 (Red Hat 8.5.0-26) (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a6625.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+         /usr/libexec/gcc/x86_64-redhat-linux/8/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_a6625.dir/CMakeCCompilerABI.c.o -version -o /tmp/cc1kkaYI.s
+        GNU C17 (GCC) version 8.5.0 20210514 (Red Hat 8.5.0-26) (x86_64-redhat-linux)
+        	compiled by GNU C version 8.5.0 20210514 (Red Hat 8.5.0-26), GMP version 6.1.2, MPFR version 3.1.6-p2, MPC version 1.1.0, isl version isl-0.16.1-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/8/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-redhat-linux/8/include
+         /usr/local/include
+         /usr/include
+        End of search list.
+        GNU C17 (GCC) version 8.5.0 20210514 (Red Hat 8.5.0-26) (x86_64-redhat-linux)
+        	compiled by GNU C version 8.5.0 20210514 (Red Hat 8.5.0-26), GMP version 6.1.2, MPFR version 3.1.6-p2, MPC version 1.1.0, isl version isl-0.16.1-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: a65a77ea8e599c493be0ad6b3093ae5c
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a6625.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+         as -v --64 -o CMakeFiles/cmTC_a6625.dir/CMakeCCompilerABI.c.o /tmp/cc1kkaYI.s
+        GNU assembler version 2.30 (x86_64-redhat-linux) using BFD version version 2.30-125.el8_10
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a6625.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+        Linking C executable cmTC_a6625
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6625.dir/link.txt --verbose=1
+        /usr/bin/cc  -v CMakeFiles/cmTC_a6625.dir/CMakeCCompilerABI.c.o -o cmTC_a6625 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-redhat-linux
+        Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.rockylinux.org/ --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl --disable-libmpx --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+        Thread model: posix
+        gcc version 8.5.0 20210514 (Red Hat 8.5.0-26) (GCC) 
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a6625' '-mtune=generic' '-march=x86-64'
+         /usr/libexec/gcc/x86_64-redhat-linux/8/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZ5HfT7.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_a6625 /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/8 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../.. CMakeFiles/cmTC_a6625.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/8/crtend.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a6625' '-mtune=generic' '-march=x86-64'
+        gmake[1]: Leaving directory '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-zPRIoE'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:10 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-redhat-linux/8/include]
+          add: [/usr/local/include]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/8/include] ==> [/usr/lib/gcc/x86_64-redhat-linux/8/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc/x86_64-redhat-linux/8/include;/usr/local/include;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:10 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-zPRIoE]
+        ignore line: []
+        ignore line: [Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a6625/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a6625.dir/build.make CMakeFiles/cmTC_a6625.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-zPRIoE']
+        ignore line: [Building C object CMakeFiles/cmTC_a6625.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_a6625.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-redhat-linux]
+        ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.rockylinux.org/ --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl --disable-libmpx --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 8.5.0 20210514 (Red Hat 8.5.0-26) (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a6625.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/8/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_a6625.dir/CMakeCCompilerABI.c.o -version -o /tmp/cc1kkaYI.s]
+        ignore line: [GNU C17 (GCC) version 8.5.0 20210514 (Red Hat 8.5.0-26) (x86_64-redhat-linux)]
+        ignore line: [	compiled by GNU C version 8.5.0 20210514 (Red Hat 8.5.0-26)  GMP version 6.1.2  MPFR version 3.1.6-p2  MPC version 1.1.0  isl version isl-0.16.1-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/8/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/8/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (GCC) version 8.5.0 20210514 (Red Hat 8.5.0-26) (x86_64-redhat-linux)]
+        ignore line: [	compiled by GNU C version 8.5.0 20210514 (Red Hat 8.5.0-26)  GMP version 6.1.2  MPFR version 3.1.6-p2  MPC version 1.1.0  isl version isl-0.16.1-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: a65a77ea8e599c493be0ad6b3093ae5c]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a6625.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_a6625.dir/CMakeCCompilerABI.c.o /tmp/cc1kkaYI.s]
+        ignore line: [GNU assembler version 2.30 (x86_64-redhat-linux) using BFD version version 2.30-125.el8_10]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a6625.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [Linking C executable cmTC_a6625]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6625.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_a6625.dir/CMakeCCompilerABI.c.o -o cmTC_a6625 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-redhat-linux]
+        ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.rockylinux.org/ --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl --disable-libmpx --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 8.5.0 20210514 (Red Hat 8.5.0-26) (GCC) ]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a6625' '-mtune=generic' '-march=x86-64']
+        link line: [ /usr/libexec/gcc/x86_64-redhat-linux/8/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZ5HfT7.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_a6625 /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/8 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../.. CMakeFiles/cmTC_a6625.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/8/crtend.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o]
+          arg [/usr/libexec/gcc/x86_64-redhat-linux/8/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccZ5HfT7.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--no-add-needed] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_a6625] ==> ignore
+          arg [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/8] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/8]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/8/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/8/../../..]
+          arg [CMakeFiles/cmTC_a6625.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--no-as-needed] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--no-as-needed] ==> ignore
+          arg [/usr/lib/gcc/x86_64-redhat-linux/8/crtend.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/8/crtend.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o] ==> [/usr/lib64/crt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o] ==> [/usr/lib64/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o] ==> [/usr/lib64/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/8] ==> [/usr/lib/gcc/x86_64-redhat-linux/8]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64] ==> [/usr/lib64]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/8/../../..] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib64/crt1.o;/usr/lib64/crti.o;/usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o;/usr/lib/gcc/x86_64-redhat-linux/8/crtend.o;/usr/lib64/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-redhat-linux/8;/usr/lib64;/lib64;/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:139 (check_include_file)"
+    checks:
+      - "Looking for fcntl.h"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-ReaxES"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-ReaxES"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_FCNTL_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-ReaxES
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_12472/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_12472.dir/build.make CMakeFiles/cmTC_12472.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-ReaxES' 들어감
+        Building C object CMakeFiles/cmTC_12472.dir/CheckIncludeFile.c.o
+        /usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_12472.dir/CheckIncludeFile.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-ReaxES/CheckIncludeFile.c
+        Linking C executable cmTC_12472
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12472.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_12472.dir/CheckIncludeFile.c.o -o cmTC_12472  -lm 
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-ReaxES' 나감
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:140 (check_include_file)"
+    checks:
+      - "Looking for inttypes.h"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-FXtWEB"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-FXtWEB"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_INTTYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-FXtWEB
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d267b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d267b.dir/build.make CMakeFiles/cmTC_d267b.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-FXtWEB' 들어감
+        Building C object CMakeFiles/cmTC_d267b.dir/CheckIncludeFile.c.o
+        /usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_d267b.dir/CheckIncludeFile.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-FXtWEB/CheckIncludeFile.c
+        Linking C executable cmTC_d267b
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d267b.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_d267b.dir/CheckIncludeFile.c.o -o cmTC_d267b  -lm 
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-FXtWEB' 나감
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:141 (check_include_file)"
+    checks:
+      - "Looking for stdarg.h"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-hUndoA"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-hUndoA"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_STDARG_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-hUndoA
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f202b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f202b.dir/build.make CMakeFiles/cmTC_f202b.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-hUndoA' 들어감
+        Building C object CMakeFiles/cmTC_f202b.dir/CheckIncludeFile.c.o
+        /usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_f202b.dir/CheckIncludeFile.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-hUndoA/CheckIncludeFile.c
+        Linking C executable cmTC_f202b
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f202b.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_f202b.dir/CheckIncludeFile.c.o -o cmTC_f202b  -lm 
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-hUndoA' 나감
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:142 (check_include_file)"
+    checks:
+      - "Looking for strings.h"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-Zkiu6z"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-Zkiu6z"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_STRINGS_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-Zkiu6z
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_95bf9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_95bf9.dir/build.make CMakeFiles/cmTC_95bf9.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-Zkiu6z' 들어감
+        Building C object CMakeFiles/cmTC_95bf9.dir/CheckIncludeFile.c.o
+        /usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_95bf9.dir/CheckIncludeFile.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-Zkiu6z/CheckIncludeFile.c
+        Linking C executable cmTC_95bf9
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95bf9.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_95bf9.dir/CheckIncludeFile.c.o -o cmTC_95bf9  -lm 
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-Zkiu6z' 나감
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:143 (check_include_file)"
+    checks:
+      - "Looking for string.h"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-N1ObkN"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-N1ObkN"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_STRING_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-N1ObkN
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8b2d8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8b2d8.dir/build.make CMakeFiles/cmTC_8b2d8.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-N1ObkN' 들어감
+        Building C object CMakeFiles/cmTC_8b2d8.dir/CheckIncludeFile.c.o
+        /usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_8b2d8.dir/CheckIncludeFile.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-N1ObkN/CheckIncludeFile.c
+        Linking C executable cmTC_8b2d8
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b2d8.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_8b2d8.dir/CheckIncludeFile.c.o -o cmTC_8b2d8  -lm 
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-N1ObkN' 나감
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:144 (check_include_file)"
+    checks:
+      - "Looking for syslog.h"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-dEw3zx"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-dEw3zx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_SYSLOG_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-dEw3zx
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_522a8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_522a8.dir/build.make CMakeFiles/cmTC_522a8.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-dEw3zx' 들어감
+        Building C object CMakeFiles/cmTC_522a8.dir/CheckIncludeFile.c.o
+        /usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_522a8.dir/CheckIncludeFile.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-dEw3zx/CheckIncludeFile.c
+        Linking C executable cmTC_522a8
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_522a8.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_522a8.dir/CheckIncludeFile.c.o -o cmTC_522a8  -lm 
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-dEw3zx' 나감
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "CMakeLists.txt:147 (check_include_files)"
+    checks:
+      - "Looking for 4 include files stdlib.h, ..., float.h"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-YZIFlM"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-YZIFlM"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "STDC_HEADERS"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-YZIFlM
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1f9d2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1f9d2.dir/build.make CMakeFiles/cmTC_1f9d2.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-YZIFlM' 들어감
+        Building C object CMakeFiles/cmTC_1f9d2.dir/STDC_HEADERS.c.o
+        /usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_1f9d2.dir/STDC_HEADERS.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-YZIFlM/STDC_HEADERS.c
+        Linking C executable cmTC_1f9d2
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f9d2.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_1f9d2.dir/STDC_HEADERS.c.o -o cmTC_1f9d2  -lm 
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-YZIFlM' 나감
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:149 (check_include_file)"
+    checks:
+      - "Looking for unistd.h"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-C2rap7"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-C2rap7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_UNISTD_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-C2rap7
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_35fc6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_35fc6.dir/build.make CMakeFiles/cmTC_35fc6.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-C2rap7' 들어감
+        Building C object CMakeFiles/cmTC_35fc6.dir/CheckIncludeFile.c.o
+        /usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_35fc6.dir/CheckIncludeFile.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-C2rap7/CheckIncludeFile.c
+        Linking C executable cmTC_35fc6
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35fc6.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_35fc6.dir/CheckIncludeFile.c.o -o cmTC_35fc6  -lm 
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-C2rap7' 나감
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:150 (check_include_file)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-GC6MDH"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-GC6MDH"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-GC6MDH
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f47ce/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f47ce.dir/build.make CMakeFiles/cmTC_f47ce.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-GC6MDH' 들어감
+        Building C object CMakeFiles/cmTC_f47ce.dir/CheckIncludeFile.c.o
+        /usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_f47ce.dir/CheckIncludeFile.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-GC6MDH/CheckIncludeFile.c
+        Linking C executable cmTC_f47ce
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f47ce.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_f47ce.dir/CheckIncludeFile.c.o -o cmTC_f47ce  -lm 
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-GC6MDH' 나감
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:151 (check_include_file)"
+    checks:
+      - "Looking for sys/resource.h"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-TTS11o"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-TTS11o"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_SYS_RESOURCE_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-TTS11o
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b3f1a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b3f1a.dir/build.make CMakeFiles/cmTC_b3f1a.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-TTS11o' 들어감
+        Building C object CMakeFiles/cmTC_b3f1a.dir/CheckIncludeFile.c.o
+        /usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_b3f1a.dir/CheckIncludeFile.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-TTS11o/CheckIncludeFile.c
+        Linking C executable cmTC_b3f1a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3f1a.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_b3f1a.dir/CheckIncludeFile.c.o -o cmTC_b3f1a  -lm 
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-TTS11o' 나감
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:153 (check_include_file)"
+    checks:
+      - "Looking for dlfcn.h"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-ttLvMh"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-ttLvMh"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_DLFCN_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-ttLvMh
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e154d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e154d.dir/build.make CMakeFiles/cmTC_e154d.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-ttLvMh' 들어감
+        Building C object CMakeFiles/cmTC_e154d.dir/CheckIncludeFile.c.o
+        /usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_e154d.dir/CheckIncludeFile.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-ttLvMh/CheckIncludeFile.c
+        Linking C executable cmTC_e154d
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e154d.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_e154d.dir/CheckIncludeFile.c.o -o cmTC_e154d  -lm 
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-ttLvMh' 나감
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:154 (check_include_file)"
+    checks:
+      - "Looking for endian.h"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-XywIGL"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-XywIGL"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_ENDIAN_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-XywIGL
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_cb236/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cb236.dir/build.make CMakeFiles/cmTC_cb236.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-XywIGL' 들어감
+        Building C object CMakeFiles/cmTC_cb236.dir/CheckIncludeFile.c.o
+        /usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_cb236.dir/CheckIncludeFile.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-XywIGL/CheckIncludeFile.c
+        Linking C executable cmTC_cb236
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb236.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_cb236.dir/CheckIncludeFile.c.o -o cmTC_cb236  -lm 
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-XywIGL' 나감
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:155 (check_include_file)"
+    checks:
+      - "Looking for limits.h"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-U6swrF"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-U6swrF"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_LIMITS_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-U6swrF
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_791be/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_791be.dir/build.make CMakeFiles/cmTC_791be.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-U6swrF' 들어감
+        Building C object CMakeFiles/cmTC_791be.dir/CheckIncludeFile.c.o
+        /usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_791be.dir/CheckIncludeFile.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-U6swrF/CheckIncludeFile.c
+        Linking C executable cmTC_791be
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_791be.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_791be.dir/CheckIncludeFile.c.o -o cmTC_791be  -lm 
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-U6swrF' 나감
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:156 (check_include_file)"
+    checks:
+      - "Looking for locale.h"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-Yi0i76"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-Yi0i76"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_LOCALE_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-Yi0i76
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_94890/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_94890.dir/build.make CMakeFiles/cmTC_94890.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-Yi0i76' 들어감
+        Building C object CMakeFiles/cmTC_94890.dir/CheckIncludeFile.c.o
+        /usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_94890.dir/CheckIncludeFile.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-Yi0i76/CheckIncludeFile.c
+        Linking C executable cmTC_94890
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94890.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_94890.dir/CheckIncludeFile.c.o -o cmTC_94890  -lm 
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-Yi0i76' 나감
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:157 (check_include_file)"
+    checks:
+      - "Looking for memory.h"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-3v2Qil"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-3v2Qil"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_MEMORY_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-3v2Qil
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_506bb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_506bb.dir/build.make CMakeFiles/cmTC_506bb.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-3v2Qil' 들어감
+        Building C object CMakeFiles/cmTC_506bb.dir/CheckIncludeFile.c.o
+        /usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_506bb.dir/CheckIncludeFile.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-3v2Qil/CheckIncludeFile.c
+        Linking C executable cmTC_506bb
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_506bb.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_506bb.dir/CheckIncludeFile.c.o -o cmTC_506bb  -lm 
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-3v2Qil' 나감
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:159 (check_include_file)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-uUo7oW"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-uUo7oW"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-uUo7oW
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4a13c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4a13c.dir/build.make CMakeFiles/cmTC_4a13c.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-uUo7oW' 들어감
+        Building C object CMakeFiles/cmTC_4a13c.dir/CheckIncludeFile.c.o
+        /usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_4a13c.dir/CheckIncludeFile.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-uUo7oW/CheckIncludeFile.c
+        Linking C executable cmTC_4a13c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a13c.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_4a13c.dir/CheckIncludeFile.c.o -o cmTC_4a13c  -lm 
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-uUo7oW' 나감
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:160 (check_include_file)"
+    checks:
+      - "Looking for stdlib.h"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-NLUG2H"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-NLUG2H"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_STDLIB_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-NLUG2H
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_bc327/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bc327.dir/build.make CMakeFiles/cmTC_bc327.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-NLUG2H' 들어감
+        Building C object CMakeFiles/cmTC_bc327.dir/CheckIncludeFile.c.o
+        /usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_bc327.dir/CheckIncludeFile.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-NLUG2H/CheckIncludeFile.c
+        Linking C executable cmTC_bc327
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc327.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_bc327.dir/CheckIncludeFile.c.o -o cmTC_bc327  -lm 
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-NLUG2H' 나감
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:161 (check_include_file)"
+    checks:
+      - "Looking for sys/cdefs.h"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-REr8ye"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-REr8ye"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_SYS_CDEFS_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-REr8ye
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3f603/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3f603.dir/build.make CMakeFiles/cmTC_3f603.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-REr8ye' 들어감
+        Building C object CMakeFiles/cmTC_3f603.dir/CheckIncludeFile.c.o
+        /usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_3f603.dir/CheckIncludeFile.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-REr8ye/CheckIncludeFile.c
+        Linking C executable cmTC_3f603
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f603.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_3f603.dir/CheckIncludeFile.c.o -o cmTC_3f603  -lm 
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-REr8ye' 나감
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:162 (check_include_file)"
+    checks:
+      - "Looking for sys/param.h"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-9qCBRy"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-9qCBRy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_SYS_PARAM_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-9qCBRy
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e7f8d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e7f8d.dir/build.make CMakeFiles/cmTC_e7f8d.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-9qCBRy' 들어감
+        Building C object CMakeFiles/cmTC_e7f8d.dir/CheckIncludeFile.c.o
+        /usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_e7f8d.dir/CheckIncludeFile.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-9qCBRy/CheckIncludeFile.c
+        Linking C executable cmTC_e7f8d
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7f8d.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_e7f8d.dir/CheckIncludeFile.c.o -o cmTC_e7f8d  -lm 
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-9qCBRy' 나감
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:163 (check_include_file)"
+    checks:
+      - "Looking for sys/random.h"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-z7dE4Q"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-z7dE4Q"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_SYS_RANDOM_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-z7dE4Q
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8147b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8147b.dir/build.make CMakeFiles/cmTC_8147b.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-z7dE4Q' 들어감
+        Building C object CMakeFiles/cmTC_8147b.dir/CheckIncludeFile.c.o
+        /usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_8147b.dir/CheckIncludeFile.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-z7dE4Q/CheckIncludeFile.c
+        Linking C executable cmTC_8147b
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8147b.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_8147b.dir/CheckIncludeFile.c.o -o cmTC_8147b  -lm 
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-z7dE4Q' 나감
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:164 (check_include_file)"
+    checks:
+      - "Looking for sys/stat.h"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-rMcrTT"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-rMcrTT"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_SYS_STAT_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-rMcrTT
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d9ed5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d9ed5.dir/build.make CMakeFiles/cmTC_d9ed5.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-rMcrTT' 들어감
+        Building C object CMakeFiles/cmTC_d9ed5.dir/CheckIncludeFile.c.o
+        /usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_d9ed5.dir/CheckIncludeFile.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-rMcrTT/CheckIncludeFile.c
+        Linking C executable cmTC_d9ed5
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9ed5.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_d9ed5.dir/CheckIncludeFile.c.o -o cmTC_d9ed5  -lm 
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-rMcrTT' 나감
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:165 (check_include_file)"
+    checks:
+      - "Looking for xlocale.h"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-EuJy3P"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-EuJy3P"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_XLOCALE_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-EuJy3P
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c1be0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c1be0.dir/build.make CMakeFiles/cmTC_c1be0.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-EuJy3P' 들어감
+        Building C object CMakeFiles/cmTC_c1be0.dir/CheckIncludeFile.c.o
+        /usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_c1be0.dir/CheckIncludeFile.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-EuJy3P/CheckIncludeFile.c
+        /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-EuJy3P/CheckIncludeFile.c:1:10: fatal error: xlocale.h: No such file or directory
+         #include <xlocale.h>
+                  ^~~~~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_c1be0.dir/build.make:78: CMakeFiles/cmTC_c1be0.dir/CheckIncludeFile.c.o] 오류 1
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-EuJy3P' 나감
+        gmake: *** [Makefile:127: cmTC_c1be0/fast] 오류 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:177 (check_symbol_exists)"
+    checks:
+      - "Looking for _isnan"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-KoINrW"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-KoINrW"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_DECL__ISNAN"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-KoINrW
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_50033/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_50033.dir/build.make CMakeFiles/cmTC_50033.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-KoINrW' 들어감
+        Building C object CMakeFiles/cmTC_50033.dir/CheckSymbolExists.c.o
+        /usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_50033.dir/CheckSymbolExists.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-KoINrW/CheckSymbolExists.c
+        /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-KoINrW/CheckSymbolExists.c: In function ‘main’:
+        /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-KoINrW/CheckSymbolExists.c:8:19: error: ‘_isnan’ undeclared (first use in this function)
+           return ((int*)(&_isnan))[argc];
+                           ^~~~~~
+        /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-KoINrW/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+        gmake[1]: *** [CMakeFiles/cmTC_50033.dir/build.make:78: CMakeFiles/cmTC_50033.dir/CheckSymbolExists.c.o] 오류 1
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-KoINrW' 나감
+        gmake: *** [Makefile:127: cmTC_50033/fast] 오류 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:178 (check_symbol_exists)"
+    checks:
+      - "Looking for _finite"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-Wqcbkn"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-Wqcbkn"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_DECL__FINITE"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-Wqcbkn
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f9b90/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f9b90.dir/build.make CMakeFiles/cmTC_f9b90.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-Wqcbkn' 들어감
+        Building C object CMakeFiles/cmTC_f9b90.dir/CheckSymbolExists.c.o
+        /usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_f9b90.dir/CheckSymbolExists.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-Wqcbkn/CheckSymbolExists.c
+        /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-Wqcbkn/CheckSymbolExists.c: In function ‘main’:
+        /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-Wqcbkn/CheckSymbolExists.c:8:19: error: ‘_finite’ undeclared (first use in this function)
+           return ((int*)(&_finite))[argc];
+                           ^~~~~~~
+        /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-Wqcbkn/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+        gmake[1]: *** [CMakeFiles/cmTC_f9b90.dir/build.make:78: CMakeFiles/cmTC_f9b90.dir/CheckSymbolExists.c.o] 오류 1
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-Wqcbkn' 나감
+        gmake: *** [Makefile:127: cmTC_f9b90/fast] 오류 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:181 (check_symbol_exists)"
+    checks:
+      - "Looking for INFINITY"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-9vaAfL"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-9vaAfL"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_DECL_INFINITY"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-9vaAfL
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e629c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e629c.dir/build.make CMakeFiles/cmTC_e629c.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-9vaAfL' 들어감
+        Building C object CMakeFiles/cmTC_e629c.dir/CheckSymbolExists.c.o
+        /usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_e629c.dir/CheckSymbolExists.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-9vaAfL/CheckSymbolExists.c
+        Linking C executable cmTC_e629c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e629c.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_e629c.dir/CheckSymbolExists.c.o -o cmTC_e629c  -lm 
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-9vaAfL' 나감
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:182 (check_symbol_exists)"
+    checks:
+      - "Looking for isinf"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-M83aUf"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-M83aUf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_DECL_ISINF"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-M83aUf
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_51ffc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_51ffc.dir/build.make CMakeFiles/cmTC_51ffc.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-M83aUf' 들어감
+        Building C object CMakeFiles/cmTC_51ffc.dir/CheckSymbolExists.c.o
+        /usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_51ffc.dir/CheckSymbolExists.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-M83aUf/CheckSymbolExists.c
+        Linking C executable cmTC_51ffc
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51ffc.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_51ffc.dir/CheckSymbolExists.c.o -o cmTC_51ffc  -lm 
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-M83aUf' 나감
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:183 (check_symbol_exists)"
+    checks:
+      - "Looking for isnan"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-31Tskt"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-31Tskt"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_DECL_ISNAN"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-31Tskt
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b01ab/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b01ab.dir/build.make CMakeFiles/cmTC_b01ab.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-31Tskt' 들어감
+        Building C object CMakeFiles/cmTC_b01ab.dir/CheckSymbolExists.c.o
+        /usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_b01ab.dir/CheckSymbolExists.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-31Tskt/CheckSymbolExists.c
+        Linking C executable cmTC_b01ab
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b01ab.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_b01ab.dir/CheckSymbolExists.c.o -o cmTC_b01ab  -lm 
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-31Tskt' 나감
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:184 (check_symbol_exists)"
+    checks:
+      - "Looking for nan"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-qMsKGq"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-qMsKGq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_DECL_NAN"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-qMsKGq
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_46ac4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_46ac4.dir/build.make CMakeFiles/cmTC_46ac4.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-qMsKGq' 들어감
+        Building C object CMakeFiles/cmTC_46ac4.dir/CheckSymbolExists.c.o
+        /usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_46ac4.dir/CheckSymbolExists.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-qMsKGq/CheckSymbolExists.c
+        Linking C executable cmTC_46ac4
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46ac4.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_46ac4.dir/CheckSymbolExists.c.o -o cmTC_46ac4  -lm 
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-qMsKGq' 나감
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:187 (check_symbol_exists)"
+    checks:
+      - "Looking for _doprnt"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-cKeS8T"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-cKeS8T"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_DOPRNT"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-cKeS8T
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_17954/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_17954.dir/build.make CMakeFiles/cmTC_17954.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-cKeS8T' 들어감
+        Building C object CMakeFiles/cmTC_17954.dir/CheckSymbolExists.c.o
+        /usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_17954.dir/CheckSymbolExists.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-cKeS8T/CheckSymbolExists.c
+        /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-cKeS8T/CheckSymbolExists.c: In function ‘main’:
+        /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-cKeS8T/CheckSymbolExists.c:8:19: error: ‘_doprnt’ undeclared (first use in this function); did you mean ‘fdopen’?
+           return ((int*)(&_doprnt))[argc];
+                           ^~~~~~~
+                           fdopen
+        /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-cKeS8T/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+        gmake[1]: *** [CMakeFiles/cmTC_17954.dir/build.make:78: CMakeFiles/cmTC_17954.dir/CheckSymbolExists.c.o] 오류 1
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-cKeS8T' 나감
+        gmake: *** [Makefile:127: cmTC_17954/fast] 오류 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:189 (check_symbol_exists)"
+    checks:
+      - "Looking for snprintf"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-TeNfl2"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-TeNfl2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_SNPRINTF"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-TeNfl2
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_cb283/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cb283.dir/build.make CMakeFiles/cmTC_cb283.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-TeNfl2' 들어감
+        Building C object CMakeFiles/cmTC_cb283.dir/CheckSymbolExists.c.o
+        /usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_cb283.dir/CheckSymbolExists.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-TeNfl2/CheckSymbolExists.c
+        Linking C executable cmTC_cb283
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb283.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_cb283.dir/CheckSymbolExists.c.o -o cmTC_cb283  -lm 
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-TeNfl2' 나감
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:191 (check_symbol_exists)"
+    checks:
+      - "Looking for vasprintf"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-8a5WEr"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-8a5WEr"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_VASPRINTF"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-8a5WEr
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_438fa/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_438fa.dir/build.make CMakeFiles/cmTC_438fa.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-8a5WEr' 들어감
+        Building C object CMakeFiles/cmTC_438fa.dir/CheckSymbolExists.c.o
+        /usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_438fa.dir/CheckSymbolExists.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-8a5WEr/CheckSymbolExists.c
+        Linking C executable cmTC_438fa
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_438fa.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_438fa.dir/CheckSymbolExists.c.o -o cmTC_438fa  -lm 
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-8a5WEr' 나감
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:192 (check_symbol_exists)"
+    checks:
+      - "Looking for vsnprintf"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-c8c94z"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-c8c94z"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_VSNPRINTF"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-c8c94z
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1c3db/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1c3db.dir/build.make CMakeFiles/cmTC_1c3db.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-c8c94z' 들어감
+        Building C object CMakeFiles/cmTC_1c3db.dir/CheckSymbolExists.c.o
+        /usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_1c3db.dir/CheckSymbolExists.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-c8c94z/CheckSymbolExists.c
+        Linking C executable cmTC_1c3db
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c3db.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_1c3db.dir/CheckSymbolExists.c.o -o cmTC_1c3db  -lm 
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-c8c94z' 나감
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:193 (check_symbol_exists)"
+    checks:
+      - "Looking for vprintf"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-Hr13tH"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-Hr13tH"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_VPRINTF"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-Hr13tH
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_86fb9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_86fb9.dir/build.make CMakeFiles/cmTC_86fb9.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-Hr13tH' 들어감
+        Building C object CMakeFiles/cmTC_86fb9.dir/CheckSymbolExists.c.o
+        /usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_86fb9.dir/CheckSymbolExists.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-Hr13tH/CheckSymbolExists.c
+        Linking C executable cmTC_86fb9
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86fb9.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_86fb9.dir/CheckSymbolExists.c.o -o cmTC_86fb9  -lm 
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-Hr13tH' 나감
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:195 (check_symbol_exists)"
+    checks:
+      - "Looking for arc4random"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-3p4My1"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-3p4My1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_ARC4RANDOM"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-3p4My1
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f4eaa/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f4eaa.dir/build.make CMakeFiles/cmTC_f4eaa.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-3p4My1' 들어감
+        Building C object CMakeFiles/cmTC_f4eaa.dir/CheckSymbolExists.c.o
+        /usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_f4eaa.dir/CheckSymbolExists.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-3p4My1/CheckSymbolExists.c
+        /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-3p4My1/CheckSymbolExists.c: In function ‘main’:
+        /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-3p4My1/CheckSymbolExists.c:8:19: error: ‘arc4random’ undeclared (first use in this function); did you mean ‘srandom’?
+           return ((int*)(&arc4random))[argc];
+                           ^~~~~~~~~~
+                           srandom
+        /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-3p4My1/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+        gmake[1]: *** [CMakeFiles/cmTC_f4eaa.dir/build.make:78: CMakeFiles/cmTC_f4eaa.dir/CheckSymbolExists.c.o] 오류 1
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-3p4My1' 나감
+        gmake: *** [Makefile:127: cmTC_f4eaa/fast] 오류 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:198 (check_include_file)"
+    checks:
+      - "Looking for bsd/stdlib.h"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-MARz6B"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-MARz6B"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_BSD_STDLIB_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-MARz6B
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1e06b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1e06b.dir/build.make CMakeFiles/cmTC_1e06b.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-MARz6B' 들어감
+        Building C object CMakeFiles/cmTC_1e06b.dir/CheckIncludeFile.c.o
+        /usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_1e06b.dir/CheckIncludeFile.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-MARz6B/CheckIncludeFile.c
+        /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-MARz6B/CheckIncludeFile.c:1:10: fatal error: bsd/stdlib.h: No such file or directory
+         #include <bsd/stdlib.h>
+                  ^~~~~~~~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_1e06b.dir/build.make:78: CMakeFiles/cmTC_1e06b.dir/CheckIncludeFile.c.o] 오류 1
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-MARz6B' 나감
+        gmake: *** [Makefile:127: cmTC_1e06b/fast] 오류 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:210 (check_symbol_exists)"
+    checks:
+      - "Looking for open"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-6eTctW"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-6eTctW"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_OPEN"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-6eTctW
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6cb15/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6cb15.dir/build.make CMakeFiles/cmTC_6cb15.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-6eTctW' 들어감
+        Building C object CMakeFiles/cmTC_6cb15.dir/CheckSymbolExists.c.o
+        /usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_6cb15.dir/CheckSymbolExists.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-6eTctW/CheckSymbolExists.c
+        Linking C executable cmTC_6cb15
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6cb15.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_6cb15.dir/CheckSymbolExists.c.o -o cmTC_6cb15  -lm 
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-6eTctW' 나감
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:213 (check_symbol_exists)"
+    checks:
+      - "Looking for realloc"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-FwtLb8"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-FwtLb8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_REALLOC"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-FwtLb8
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d931f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d931f.dir/build.make CMakeFiles/cmTC_d931f.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-FwtLb8' 들어감
+        Building C object CMakeFiles/cmTC_d931f.dir/CheckSymbolExists.c.o
+        /usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_d931f.dir/CheckSymbolExists.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-FwtLb8/CheckSymbolExists.c
+        Linking C executable cmTC_d931f
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d931f.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_d931f.dir/CheckSymbolExists.c.o -o cmTC_d931f  -lm 
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-FwtLb8' 나감
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:216 (check_symbol_exists)"
+    checks:
+      - "Looking for setlocale"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-UaVKnC"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-UaVKnC"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_SETLOCALE"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-UaVKnC
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3f24a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3f24a.dir/build.make CMakeFiles/cmTC_3f24a.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-UaVKnC' 들어감
+        Building C object CMakeFiles/cmTC_3f24a.dir/CheckSymbolExists.c.o
+        /usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_3f24a.dir/CheckSymbolExists.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-UaVKnC/CheckSymbolExists.c
+        Linking C executable cmTC_3f24a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f24a.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_3f24a.dir/CheckSymbolExists.c.o -o cmTC_3f24a  -lm 
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-UaVKnC' 나감
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:217 (check_symbol_exists)"
+    checks:
+      - "Looking for uselocale"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-hYiErR"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-hYiErR"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_USELOCALE"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-hYiErR
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_31ae7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_31ae7.dir/build.make CMakeFiles/cmTC_31ae7.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-hYiErR' 들어감
+        Building C object CMakeFiles/cmTC_31ae7.dir/CheckSymbolExists.c.o
+        /usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_31ae7.dir/CheckSymbolExists.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-hYiErR/CheckSymbolExists.c
+        Linking C executable cmTC_31ae7
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31ae7.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_31ae7.dir/CheckSymbolExists.c.o -o cmTC_31ae7  -lm 
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-hYiErR' 나감
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:220 (check_symbol_exists)"
+    checks:
+      - "Looking for duplocale"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-lgxDxS"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-lgxDxS"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_DUPLOCALE"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-lgxDxS
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f2c53/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f2c53.dir/build.make CMakeFiles/cmTC_f2c53.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-lgxDxS' 들어감
+        Building C object CMakeFiles/cmTC_f2c53.dir/CheckSymbolExists.c.o
+        /usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_f2c53.dir/CheckSymbolExists.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-lgxDxS/CheckSymbolExists.c
+        Linking C executable cmTC_f2c53
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2c53.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_f2c53.dir/CheckSymbolExists.c.o -o cmTC_f2c53  -lm 
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-lgxDxS' 나감
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:237 (check_symbol_exists)"
+    checks:
+      - "Looking for strcasecmp"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-mCA27Q"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-mCA27Q"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_STRCASECMP"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-mCA27Q
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_de5b9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_de5b9.dir/build.make CMakeFiles/cmTC_de5b9.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-mCA27Q' 들어감
+        Building C object CMakeFiles/cmTC_de5b9.dir/CheckSymbolExists.c.o
+        /usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_de5b9.dir/CheckSymbolExists.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-mCA27Q/CheckSymbolExists.c
+        Linking C executable cmTC_de5b9
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de5b9.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_de5b9.dir/CheckSymbolExists.c.o -o cmTC_de5b9  -lm 
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-mCA27Q' 나감
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:238 (check_symbol_exists)"
+    checks:
+      - "Looking for strncasecmp"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-3bhgJB"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-3bhgJB"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_STRNCASECMP"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-3bhgJB
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_286dc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_286dc.dir/build.make CMakeFiles/cmTC_286dc.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-3bhgJB' 들어감
+        Building C object CMakeFiles/cmTC_286dc.dir/CheckSymbolExists.c.o
+        /usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_286dc.dir/CheckSymbolExists.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-3bhgJB/CheckSymbolExists.c
+        Linking C executable cmTC_286dc
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_286dc.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_286dc.dir/CheckSymbolExists.c.o -o cmTC_286dc  -lm 
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-3bhgJB' 나감
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:241 (check_symbol_exists)"
+    checks:
+      - "Looking for strdup"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-HW8SBi"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-HW8SBi"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_STRDUP"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-HW8SBi
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ccb96/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ccb96.dir/build.make CMakeFiles/cmTC_ccb96.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-HW8SBi' 들어감
+        Building C object CMakeFiles/cmTC_ccb96.dir/CheckSymbolExists.c.o
+        /usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_ccb96.dir/CheckSymbolExists.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-HW8SBi/CheckSymbolExists.c
+        Linking C executable cmTC_ccb96
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ccb96.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_ccb96.dir/CheckSymbolExists.c.o -o cmTC_ccb96  -lm 
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-HW8SBi' 나감
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:242 (check_symbol_exists)"
+    checks:
+      - "Looking for strerror"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-jJX1ZV"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-jJX1ZV"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_STRERROR"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-jJX1ZV
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_db0c9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_db0c9.dir/build.make CMakeFiles/cmTC_db0c9.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-jJX1ZV' 들어감
+        Building C object CMakeFiles/cmTC_db0c9.dir/CheckSymbolExists.c.o
+        /usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_db0c9.dir/CheckSymbolExists.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-jJX1ZV/CheckSymbolExists.c
+        Linking C executable cmTC_db0c9
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db0c9.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_db0c9.dir/CheckSymbolExists.c.o -o cmTC_db0c9  -lm 
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-jJX1ZV' 나감
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:245 (check_symbol_exists)"
+    checks:
+      - "Looking for vsyslog"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-9Cf5ka"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-9Cf5ka"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_VSYSLOG"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-9Cf5ka
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_53c1d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_53c1d.dir/build.make CMakeFiles/cmTC_53c1d.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-9Cf5ka' 들어감
+        Building C object CMakeFiles/cmTC_53c1d.dir/CheckSymbolExists.c.o
+        /usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_53c1d.dir/CheckSymbolExists.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-9Cf5ka/CheckSymbolExists.c
+        Linking C executable cmTC_53c1d
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53c1d.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_53c1d.dir/CheckSymbolExists.c.o -o cmTC_53c1d  -lm 
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-9Cf5ka' 나감
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:248 (check_symbol_exists)"
+    checks:
+      - "Looking for getrandom"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-IwvpKC"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-IwvpKC"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_GETRANDOM"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-IwvpKC
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1172e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1172e.dir/build.make CMakeFiles/cmTC_1172e.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-IwvpKC' 들어감
+        Building C object CMakeFiles/cmTC_1172e.dir/CheckSymbolExists.c.o
+        /usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_1172e.dir/CheckSymbolExists.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-IwvpKC/CheckSymbolExists.c
+        Linking C executable cmTC_1172e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1172e.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_1172e.dir/CheckSymbolExists.c.o -o cmTC_1172e  -lm 
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-IwvpKC' 나감
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:251 (check_symbol_exists)"
+    checks:
+      - "Looking for getrusage"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-KyWdOn"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-KyWdOn"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_GETRUSAGE"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-KyWdOn
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_51d68/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_51d68.dir/build.make CMakeFiles/cmTC_51d68.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-KyWdOn' 들어감
+        Building C object CMakeFiles/cmTC_51d68.dir/CheckSymbolExists.c.o
+        /usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_51d68.dir/CheckSymbolExists.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-KyWdOn/CheckSymbolExists.c
+        Linking C executable cmTC_51d68
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51d68.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_51d68.dir/CheckSymbolExists.c.o -o cmTC_51d68  -lm 
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-KyWdOn' 나감
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:254 (check_symbol_exists)"
+    checks:
+      - "Looking for strtoll"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-PG3CQa"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-PG3CQa"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_STRTOLL"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-PG3CQa
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_24d59/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_24d59.dir/build.make CMakeFiles/cmTC_24d59.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-PG3CQa' 들어감
+        Building C object CMakeFiles/cmTC_24d59.dir/CheckSymbolExists.c.o
+        /usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_24d59.dir/CheckSymbolExists.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-PG3CQa/CheckSymbolExists.c
+        Linking C executable cmTC_24d59
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24d59.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_24d59.dir/CheckSymbolExists.c.o -o cmTC_24d59  -lm 
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-PG3CQa' 나감
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:255 (check_symbol_exists)"
+    checks:
+      - "Looking for strtoull"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-NKRqwn"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-NKRqwn"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_STRTOULL"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-NKRqwn
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e92e1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e92e1.dir/build.make CMakeFiles/cmTC_e92e1.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-NKRqwn' 들어감
+        Building C object CMakeFiles/cmTC_e92e1.dir/CheckSymbolExists.c.o
+        /usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_e92e1.dir/CheckSymbolExists.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-NKRqwn/CheckSymbolExists.c
+        Linking C executable cmTC_e92e1
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e92e1.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_e92e1.dir/CheckSymbolExists.c.o -o cmTC_e92e1  -lm 
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-NKRqwn' 나감
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckTypeSize.cmake:254 (check_include_file)"
+      - "CMakeLists.txt:278 (check_type_size)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-aUsrxr"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-aUsrxr"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-aUsrxr
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d44fb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d44fb.dir/build.make CMakeFiles/cmTC_d44fb.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-aUsrxr' 들어감
+        Building C object CMakeFiles/cmTC_d44fb.dir/CheckIncludeFile.c.o
+        /usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_d44fb.dir/CheckIncludeFile.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-aUsrxr/CheckIncludeFile.c
+        Linking C executable cmTC_d44fb
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d44fb.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_d44fb.dir/CheckIncludeFile.c.o -o cmTC_d44fb  -lm 
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-aUsrxr' 나감
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckTypeSize.cmake:148 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckTypeSize.cmake:273 (__check_type_size_impl)"
+      - "CMakeLists.txt:278 (check_type_size)"
+    checks:
+      - "Check size of int"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-jMDN1T"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-jMDN1T"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_SIZEOF_INT"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-jMDN1T
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_72afd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_72afd.dir/build.make CMakeFiles/cmTC_72afd.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-jMDN1T' 들어감
+        Building C object CMakeFiles/cmTC_72afd.dir/SIZEOF_INT.c.o
+        /usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_72afd.dir/SIZEOF_INT.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-jMDN1T/SIZEOF_INT.c
+        Linking C executable cmTC_72afd
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72afd.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_72afd.dir/SIZEOF_INT.c.o -o cmTC_72afd  -lm 
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-jMDN1T' 나감
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckTypeSize.cmake:148 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckTypeSize.cmake:273 (__check_type_size_impl)"
+      - "CMakeLists.txt:279 (check_type_size)"
+    checks:
+      - "Check size of int64_t"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-zkzpDz"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-zkzpDz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_SIZEOF_INT64_T"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-zkzpDz
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c2aab/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c2aab.dir/build.make CMakeFiles/cmTC_c2aab.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-zkzpDz' 들어감
+        Building C object CMakeFiles/cmTC_c2aab.dir/SIZEOF_INT64_T.c.o
+        /usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_c2aab.dir/SIZEOF_INT64_T.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-zkzpDz/SIZEOF_INT64_T.c
+        Linking C executable cmTC_c2aab
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2aab.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_c2aab.dir/SIZEOF_INT64_T.c.o -o cmTC_c2aab  -lm 
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-zkzpDz' 나감
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckTypeSize.cmake:148 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckTypeSize.cmake:273 (__check_type_size_impl)"
+      - "CMakeLists.txt:280 (check_type_size)"
+    checks:
+      - "Check size of long"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-SqK5BR"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-SqK5BR"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_SIZEOF_LONG"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-SqK5BR
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_85c6b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_85c6b.dir/build.make CMakeFiles/cmTC_85c6b.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-SqK5BR' 들어감
+        Building C object CMakeFiles/cmTC_85c6b.dir/SIZEOF_LONG.c.o
+        /usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_85c6b.dir/SIZEOF_LONG.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-SqK5BR/SIZEOF_LONG.c
+        Linking C executable cmTC_85c6b
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85c6b.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_85c6b.dir/SIZEOF_LONG.c.o -o cmTC_85c6b  -lm 
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-SqK5BR' 나감
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckTypeSize.cmake:148 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckTypeSize.cmake:273 (__check_type_size_impl)"
+      - "CMakeLists.txt:281 (check_type_size)"
+    checks:
+      - "Check size of long long"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-xJgmd3"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-xJgmd3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_SIZEOF_LONG_LONG"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-xJgmd3
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9f28d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9f28d.dir/build.make CMakeFiles/cmTC_9f28d.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-xJgmd3' 들어감
+        Building C object CMakeFiles/cmTC_9f28d.dir/SIZEOF_LONG_LONG.c.o
+        /usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_9f28d.dir/SIZEOF_LONG_LONG.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-xJgmd3/SIZEOF_LONG_LONG.c
+        Linking C executable cmTC_9f28d
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f28d.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_9f28d.dir/SIZEOF_LONG_LONG.c.o -o cmTC_9f28d  -lm 
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-xJgmd3' 나감
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckTypeSize.cmake:148 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckTypeSize.cmake:273 (__check_type_size_impl)"
+      - "CMakeLists.txt:282 (check_type_size)"
+    checks:
+      - "Check size of size_t"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-ReRXg6"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-ReRXg6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_SIZEOF_SIZE_T"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-ReRXg6
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_73122/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_73122.dir/build.make CMakeFiles/cmTC_73122.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-ReRXg6' 들어감
+        Building C object CMakeFiles/cmTC_73122.dir/SIZEOF_SIZE_T.c.o
+        /usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_73122.dir/SIZEOF_SIZE_T.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-ReRXg6/SIZEOF_SIZE_T.c
+        Linking C executable cmTC_73122
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73122.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_73122.dir/SIZEOF_SIZE_T.c.o -o cmTC_73122  -lm 
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-ReRXg6' 나감
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckTypeSize.cmake:148 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckTypeSize.cmake:273 (__check_type_size_impl)"
+      - "CMakeLists.txt:287 (check_type_size)"
+    checks:
+      - "Check size of ssize_t"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-whxfdw"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-whxfdw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_SIZEOF_SSIZE_T"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-whxfdw
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d7a61/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d7a61.dir/build.make CMakeFiles/cmTC_d7a61.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-whxfdw' 들어감
+        Building C object CMakeFiles/cmTC_d7a61.dir/SIZEOF_SSIZE_T.c.o
+        /usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_d7a61.dir/SIZEOF_SSIZE_T.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-whxfdw/SIZEOF_SSIZE_T.c
+        Linking C executable cmTC_d7a61
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7a61.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_d7a61.dir/SIZEOF_SSIZE_T.c.o -o cmTC_d7a61  -lm 
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-whxfdw' 나감
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:290 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAS_GNU_WARNING_LONG"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-76Pk4K"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-76Pk4K"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAS_GNU_WARNING_LONG"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-76Pk4K
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4b7f2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4b7f2.dir/build.make CMakeFiles/cmTC_4b7f2.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-76Pk4K' 들어감
+        Building C object CMakeFiles/cmTC_4b7f2.dir/src.c.o
+        /usr/bin/cc -DHAS_GNU_WARNING_LONG -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_4b7f2.dir/src.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-76Pk4K/src.c
+        /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-76Pk4K/src.c:3:9: warning: missing terminating " character
+         __asm__(".section .gnu.json_object_get
+                 ^
+        /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-76Pk4K/src.c:3:9: error: missing terminating " character
+         __asm__(".section .gnu.json_object_get
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-76Pk4K/src.c:4:2: error: expected string literal before ‘.’ token
+          .ascii "Please link against libjson-c instead of libjson"
+          ^
+        /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-76Pk4K/src.c:5:7: warning: missing terminating " character
+          .text");
+               ^
+        /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-76Pk4K/src.c:5:7: error: missing terminating " character
+          .text");
+               ^~~
+        gmake[1]: *** [CMakeFiles/cmTC_4b7f2.dir/build.make:78: CMakeFiles/cmTC_4b7f2.dir/src.c.o] 오류 1
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-76Pk4K' 나감
+        gmake: *** [Makefile:127: cmTC_4b7f2/fast] 오류 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:298 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_ATOMIC_BUILTINS"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-Rnfuro"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-Rnfuro"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_ATOMIC_BUILTINS"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-Rnfuro
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_79db4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_79db4.dir/build.make CMakeFiles/cmTC_79db4.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-Rnfuro' 들어감
+        Building C object CMakeFiles/cmTC_79db4.dir/src.c.o
+        /usr/bin/cc -DHAVE_ATOMIC_BUILTINS -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_79db4.dir/src.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-Rnfuro/src.c
+        Linking C executable cmTC_79db4
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79db4.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_79db4.dir/src.c.o -o cmTC_79db4  -lm 
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-Rnfuro' 나감
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:303 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE___THREAD"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-Vk930n"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-Vk930n"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE___THREAD"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-Vk930n
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_27d2a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_27d2a.dir/build.make CMakeFiles/cmTC_27d2a.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-Vk930n' 들어감
+        Building C object CMakeFiles/cmTC_27d2a.dir/src.c.o
+        /usr/bin/cc -DHAVE___THREAD -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_27d2a.dir/src.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-Vk930n/src.c
+        Linking C executable cmTC_27d2a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27d2a.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_27d2a.dir/src.c.o -o cmTC_27d2a  -lm 
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-Vk930n' 나감
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:378 (check_c_source_compiles)"
+    checks:
+      - "Performing Test REENTRANT_WORKS"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-roH6vQ"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-roH6vQ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -Werror -Wall -Wcast-qual -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -Wstrict-prototypes"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "REENTRANT_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-roH6vQ
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c684b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c684b.dir/build.make CMakeFiles/cmTC_c684b.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-roH6vQ' 들어감
+        Building C object CMakeFiles/cmTC_c684b.dir/src.c.o
+        /usr/bin/cc -DREENTRANT_WORKS -D_GNU_SOURCE  -ffunction-sections -fdata-sections -Werror -Wall -Wcast-qual -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -Wstrict-prototypes  -fPIE -o CMakeFiles/cmTC_c684b.dir/src.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-roH6vQ/src.c
+        Linking C executable cmTC_c684b
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c684b.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffunction-sections -fdata-sections -Werror -Wall -Wcast-qual -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -Wstrict-prototypes  CMakeFiles/cmTC_c684b.dir/src.c.o -o cmTC_c684b  -lm 
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-roH6vQ' 나감
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:397 (check_c_source_compiles)"
+    checks:
+      - "Performing Test BSYMBOLIC_WORKS"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-FjQk5Y"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-FjQk5Y"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -Werror -Wall -Wcast-qual -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -Wstrict-prototypes"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "BSYMBOLIC_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-FjQk5Y
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_78245/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_78245.dir/build.make CMakeFiles/cmTC_78245.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-FjQk5Y' 들어감
+        Building C object CMakeFiles/cmTC_78245.dir/src.c.o
+        /usr/bin/cc -DBSYMBOLIC_WORKS -D_GNU_SOURCE  -ffunction-sections -fdata-sections -Werror -Wall -Wcast-qual -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -Wstrict-prototypes  -fPIE -o CMakeFiles/cmTC_78245.dir/src.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-FjQk5Y/src.c
+        Linking C executable cmTC_78245
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78245.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffunction-sections -fdata-sections -Werror -Wall -Wcast-qual -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -Wstrict-prototypes  CMakeFiles/cmTC_78245.dir/src.c.o -o cmTC_78245  -lm -Wl,-Bsymbolic-functions 
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-FjQk5Y' 나감
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:415 (check_c_source_compiles)"
+    checks:
+      - "Performing Test VERSION_SCRIPT_WORKS"
+    directories:
+      source: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-kQ72AG"
+      binary: "/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-kQ72AG"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -Werror -Wall -Wcast-qual -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -Wstrict-prototypes"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "VERSION_SCRIPT_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-kQ72AG
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d308d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d308d.dir/build.make CMakeFiles/cmTC_d308d.dir/build
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-kQ72AG' 들어감
+        Building C object CMakeFiles/cmTC_d308d.dir/src.c.o
+        /usr/bin/cc -DVERSION_SCRIPT_WORKS -D_GNU_SOURCE  -ffunction-sections -fdata-sections -Werror -Wall -Wcast-qual -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -Wstrict-prototypes  -fPIE -o CMakeFiles/cmTC_d308d.dir/src.c.o -c /home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-kQ72AG/src.c
+        Linking C executable cmTC_d308d
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d308d.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffunction-sections -fdata-sections -Werror -Wall -Wcast-qual -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -Wstrict-prototypes  CMakeFiles/cmTC_d308d.dir/src.c.o -o cmTC_d308d  -lm -Wl,--version-script,/home/rocky8usr/project/u-tudy/lib/json-c-build/check-version-script.sym 
+        gmake[1]: 디렉터리 '/home/rocky8usr/project/u-tudy/lib/json-c-build/CMakeFiles/CMakeScratch/TryCompile-kQ72AG' 나감
+        
+      exitCode: 0
+...
