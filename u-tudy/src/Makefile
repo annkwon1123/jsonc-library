@@ -8,9 +8,11 @@ all : $(TARGET)
 
 $(TARGET): json.o
 	$(CC) -o $(TARGET) json.o $(LIBDIR)/libjson-c.a
+	mv json ../bin
 
 main.o : json.c
 	$(CC) -c json.c $(CFLAGS)
 
-clean : rm -f *.o $(TARGET)
+clean : 
+	rm -f *.o json ../bin/json
 
