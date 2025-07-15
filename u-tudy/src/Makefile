@@ -1,13 +1,13 @@
 CC = gcc
-LIBDIR = /home/project/u-tudy/lib/json-c-build
+LIBDIR = ../lib/json-c-build
 CFLAGS = -I$(LIBDIR)
 LDFLAGS = -L$(LIBDIR)
-TARGET = myprog
+TARGET = json
 
 all : $(TARGET)
 
 $(TARGET): json.o
-	$(CC) -o $(TARGET) json.o $(LDFLAGS) -ljson-c
+	$(CC) -o $(TARGET) json.o $(LIBDIR)/libjson-c.a
 
 main.o : json.c
 	$(CC) -c json.c $(CFLAGS)
