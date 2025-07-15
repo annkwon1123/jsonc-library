@@ -1,3 +1,0 @@
-[submodule "u-tudy/lib/json-c"]
-	path = u-tudy/lib/json-c
-	url = https://github.com/json-c/json-c.git
