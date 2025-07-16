@@ -3,6 +3,8 @@
 
 int main() 
 {
+	mosquitto_lib_init();
+
 	struct mosquitto *mosq = mosquitto_new(NULL, true, NULL);
 	if ( !mosq )
 	{
@@ -10,7 +12,7 @@ int main()
 		return 1;
 	}
 
-	mosquitto_connect(mosq, "localhost", 1883, 60);
+	mosquitto_connect(mosq, "192.168.71.172", 1883, 60);
 
 	mosquitto_publish(mosq, NULL, "test/topic", 12, "Hello MQTT!", 0, false);
 	mosquitto_disconnect(mosq);
