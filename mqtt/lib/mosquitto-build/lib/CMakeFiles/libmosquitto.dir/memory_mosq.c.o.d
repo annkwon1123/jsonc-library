@@ -1,7 +1,7 @@
 lib/CMakeFiles/libmosquitto.dir/memory_mosq.c.o: \
- /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/lib/memory_mosq.c \
+ /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/lib/memory_mosq.c \
  /usr/include/stdc-predef.h \
- /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/config.h \
+ /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/config.h \
  /usr/include/x86_64-linux-gnu/openssl/opensslconf.h \
  /usr/include/x86_64-linux-gnu/openssl/configuration.h \
  /usr/include/openssl/macros.h /usr/include/openssl/opensslv.h \
@@ -48,7 +48,7 @@ lib/CMakeFiles/libmosquitto.dir/memory_mosq.c.o: \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/string.h \
  /usr/include/strings.h \
- /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/lib/memory_mosq.h \
+ /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/lib/memory_mosq.h \
  /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \

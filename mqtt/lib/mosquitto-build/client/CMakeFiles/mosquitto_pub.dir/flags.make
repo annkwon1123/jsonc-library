@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DCMAKE -DLIBMOSQUITTO_STATIC -DOPENSSL_API_COMPAT=0x10100000L -DVERSION=\"2.0.22\" -DWITH_EC -DWITH_SOCKS -DWITH_THREADING -DWITH_TLS -DWITH_TLS_PSK -DWITH_UNIX_SOCKETS
 
-C_INCLUDES = -I/home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22 -I/home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/include
+C_INCLUDES = -I/home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22 -I/home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/include
 
 C_FLAGS = 
 

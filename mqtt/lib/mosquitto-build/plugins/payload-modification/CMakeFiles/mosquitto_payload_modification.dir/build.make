@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22
+CMAKE_SOURCE_DIR = /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kwonsoyeon/project.try4/lib/mosquitto-build
+CMAKE_BINARY_DIR = /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build
 
 # Include any dependencies generated for this target.
 include plugins/payload-modification/CMakeFiles/mosquitto_payload_modification.dir/depend.make
@@ -70,18 +70,18 @@ include plugins/payload-modification/CMakeFiles/mosquitto_payload_modification.d
 include plugins/payload-modification/CMakeFiles/mosquitto_payload_modification.dir/flags.make
 
 plugins/payload-modification/CMakeFiles/mosquitto_payload_modification.dir/mosquitto_payload_modification.c.o: plugins/payload-modification/CMakeFiles/mosquitto_payload_modification.dir/flags.make
-plugins/payload-modification/CMakeFiles/mosquitto_payload_modification.dir/mosquitto_payload_modification.c.o: /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/plugins/payload-modification/mosquitto_payload_modification.c
+plugins/payload-modification/CMakeFiles/mosquitto_payload_modification.dir/mosquitto_payload_modification.c.o: /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/plugins/payload-modification/mosquitto_payload_modification.c
 plugins/payload-modification/CMakeFiles/mosquitto_payload_modification.dir/mosquitto_payload_modification.c.o: plugins/payload-modification/CMakeFiles/mosquitto_payload_modification.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kwonsoyeon/project.try4/lib/mosquitto-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object plugins/payload-modification/CMakeFiles/mosquitto_payload_modification.dir/mosquitto_payload_modification.c.o"
-	cd /home/kwonsoyeon/project.try4/lib/mosquitto-build/plugins/payload-modification && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT plugins/payload-modification/CMakeFiles/mosquitto_payload_modification.dir/mosquitto_payload_modification.c.o -MF CMakeFiles/mosquitto_payload_modification.dir/mosquitto_payload_modification.c.o.d -o CMakeFiles/mosquitto_payload_modification.dir/mosquitto_payload_modification.c.o -c /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/plugins/payload-modification/mosquitto_payload_modification.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object plugins/payload-modification/CMakeFiles/mosquitto_payload_modification.dir/mosquitto_payload_modification.c.o"
+	cd /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build/plugins/payload-modification && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT plugins/payload-modification/CMakeFiles/mosquitto_payload_modification.dir/mosquitto_payload_modification.c.o -MF CMakeFiles/mosquitto_payload_modification.dir/mosquitto_payload_modification.c.o.d -o CMakeFiles/mosquitto_payload_modification.dir/mosquitto_payload_modification.c.o -c /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/plugins/payload-modification/mosquitto_payload_modification.c
 
 plugins/payload-modification/CMakeFiles/mosquitto_payload_modification.dir/mosquitto_payload_modification.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/mosquitto_payload_modification.dir/mosquitto_payload_modification.c.i"
-	cd /home/kwonsoyeon/project.try4/lib/mosquitto-build/plugins/payload-modification && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/plugins/payload-modification/mosquitto_payload_modification.c > CMakeFiles/mosquitto_payload_modification.dir/mosquitto_payload_modification.c.i
+	cd /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build/plugins/payload-modification && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/plugins/payload-modification/mosquitto_payload_modification.c > CMakeFiles/mosquitto_payload_modification.dir/mosquitto_payload_modification.c.i
 
 plugins/payload-modification/CMakeFiles/mosquitto_payload_modification.dir/mosquitto_payload_modification.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/mosquitto_payload_modification.dir/mosquitto_payload_modification.c.s"
-	cd /home/kwonsoyeon/project.try4/lib/mosquitto-build/plugins/payload-modification && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/plugins/payload-modification/mosquitto_payload_modification.c -o CMakeFiles/mosquitto_payload_modification.dir/mosquitto_payload_modification.c.s
+	cd /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build/plugins/payload-modification && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/plugins/payload-modification/mosquitto_payload_modification.c -o CMakeFiles/mosquitto_payload_modification.dir/mosquitto_payload_modification.c.s
 
 # Object files for target mosquitto_payload_modification
 mosquitto_payload_modification_OBJECTS = \
@@ -93,18 +93,18 @@ mosquitto_payload_modification_EXTERNAL_OBJECTS =
 plugins/payload-modification/mosquitto_payload_modification.so: plugins/payload-modification/CMakeFiles/mosquitto_payload_modification.dir/mosquitto_payload_modification.c.o
 plugins/payload-modification/mosquitto_payload_modification.so: plugins/payload-modification/CMakeFiles/mosquitto_payload_modification.dir/build.make
 plugins/payload-modification/mosquitto_payload_modification.so: plugins/payload-modification/CMakeFiles/mosquitto_payload_modification.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/kwonsoyeon/project.try4/lib/mosquitto-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared module mosquitto_payload_modification.so"
-	cd /home/kwonsoyeon/project.try4/lib/mosquitto-build/plugins/payload-modification && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mosquitto_payload_modification.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared module mosquitto_payload_modification.so"
+	cd /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build/plugins/payload-modification && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mosquitto_payload_modification.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 plugins/payload-modification/CMakeFiles/mosquitto_payload_modification.dir/build: plugins/payload-modification/mosquitto_payload_modification.so
 .PHONY : plugins/payload-modification/CMakeFiles/mosquitto_payload_modification.dir/build
 
 plugins/payload-modification/CMakeFiles/mosquitto_payload_modification.dir/clean:
-	cd /home/kwonsoyeon/project.try4/lib/mosquitto-build/plugins/payload-modification && $(CMAKE_COMMAND) -P CMakeFiles/mosquitto_payload_modification.dir/cmake_clean.cmake
+	cd /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build/plugins/payload-modification && $(CMAKE_COMMAND) -P CMakeFiles/mosquitto_payload_modification.dir/cmake_clean.cmake
 .PHONY : plugins/payload-modification/CMakeFiles/mosquitto_payload_modification.dir/clean
 
 plugins/payload-modification/CMakeFiles/mosquitto_payload_modification.dir/depend:
-	cd /home/kwonsoyeon/project.try4/lib/mosquitto-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22 /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/plugins/payload-modification /home/kwonsoyeon/project.try4/lib/mosquitto-build /home/kwonsoyeon/project.try4/lib/mosquitto-build/plugins/payload-modification /home/kwonsoyeon/project.try4/lib/mosquitto-build/plugins/payload-modification/CMakeFiles/mosquitto_payload_modification.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22 /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/plugins/payload-modification /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build/plugins/payload-modification /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build/plugins/payload-modification/CMakeFiles/mosquitto_payload_modification.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : plugins/payload-modification/CMakeFiles/mosquitto_payload_modification.dir/depend
 

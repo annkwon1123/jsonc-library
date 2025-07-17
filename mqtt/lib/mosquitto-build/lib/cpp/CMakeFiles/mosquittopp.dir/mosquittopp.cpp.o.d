@@ -1,5 +1,5 @@
 lib/cpp/CMakeFiles/mosquittopp.dir/mosquittopp.cpp.o: \
- /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/lib/cpp/mosquittopp.cpp \
+ /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/lib/cpp/mosquittopp.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/13/cstdlib \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -47,12 +47,12 @@ lib/cpp/CMakeFiles/mosquittopp.dir/mosquittopp.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/c++/13/bits/std_abs.h \
- /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/include/mosquitto.h \
+ /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/include/mosquitto.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
- /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/lib/cpp/mosquittopp.h \
+ /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/lib/cpp/mosquittopp.h \
  /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/time.h \
  /usr/include/x86_64-linux-gnu/bits/timex.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \

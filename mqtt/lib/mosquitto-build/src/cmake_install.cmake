@@ -1,4 +1,4 @@
-# Install script for directory: /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/src
+# Install script for directory: /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -49,7 +49,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/sbin/mosquitto"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sbin" TYPE EXECUTABLE FILES "/home/kwonsoyeon/project.try4/lib/mosquitto-build/src/mosquitto")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sbin" TYPE EXECUTABLE FILES "/home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build/src/mosquitto")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/sbin/mosquitto" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/sbin/mosquitto")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -60,8 +60,8 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES
-    "/home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/src/../include/mosquitto_broker.h"
-    "/home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/src/../include/mosquitto_plugin.h"
+    "/home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/src/../include/mosquitto_broker.h"
+    "/home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/src/../include/mosquitto_plugin.h"
     )
 endif()
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22
+# Install script for directory: /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,49 +44,49 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/kwonsoyeon/project.try4/lib/mosquitto-build/lib/cmake_install.cmake")
+  include("/home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build/lib/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/kwonsoyeon/project.try4/lib/mosquitto-build/client/cmake_install.cmake")
+  include("/home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build/client/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/kwonsoyeon/project.try4/lib/mosquitto-build/src/cmake_install.cmake")
+  include("/home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build/src/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/kwonsoyeon/project.try4/lib/mosquitto-build/apps/cmake_install.cmake")
+  include("/home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build/apps/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/kwonsoyeon/project.try4/lib/mosquitto-build/plugins/cmake_install.cmake")
+  include("/home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build/plugins/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/kwonsoyeon/project.try4/lib/mosquitto-build/man/cmake_install.cmake")
+  include("/home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build/man/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/etc/mosquitto" TYPE FILE FILES
-    "/home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/mosquitto.conf"
-    "/home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/aclfile.example"
-    "/home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/pskfile.example"
-    "/home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/pwfile.example"
+    "/home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/mosquitto.conf"
+    "/home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/aclfile.example"
+    "/home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/pskfile.example"
+    "/home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/pwfile.example"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/kwonsoyeon/project.try4/lib/mosquitto-build/libmosquitto.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build/libmosquitto.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/kwonsoyeon/project.try4/lib/mosquitto-build/libmosquittopp.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build/libmosquittopp.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -97,5 +97,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/kwonsoyeon/project.try4/lib/mosquitto-build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -5,7 +5,7 @@ LIBDIR = $(MQTTDIR)/lib/mosquitto-build/lib
 BINDIR = $(MQTTDIR)/bin
 
 CFLAGS = -I$(LIBDIR)
-LDFLAGS = -L$(LIBDIR) $(LIBDIR)/libmosquitto.a -lpthread -lssl -lcrypto
+LDFLAGS = -L$(LIBDIR) $(LIBDIR)/libmosquitto_static.a -lpthread -lssl -lcrypto
 
 TARGETS = mqtt_pub mqtt_sub
 

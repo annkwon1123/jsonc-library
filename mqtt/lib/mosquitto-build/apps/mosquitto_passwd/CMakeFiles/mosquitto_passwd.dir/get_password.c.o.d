@@ -1,7 +1,7 @@
 apps/mosquitto_passwd/CMakeFiles/mosquitto_passwd.dir/get_password.c.o: \
- /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/apps/mosquitto_passwd/get_password.c \
+ /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/apps/mosquitto_passwd/get_password.c \
  /usr/include/stdc-predef.h \
- /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/config.h \
+ /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/config.h \
  /usr/include/x86_64-linux-gnu/openssl/opensslconf.h \
  /usr/include/x86_64-linux-gnu/openssl/configuration.h \
  /usr/include/openssl/macros.h /usr/include/openssl/opensslv.h \
@@ -90,4 +90,4 @@ apps/mosquitto_passwd/CMakeFiles/mosquitto_passwd.dir/get_password.c.o: \
  /usr/include/x86_64-linux-gnu/bits/statx-generic.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h \
- /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/apps/mosquitto_passwd/get_password.h
+ /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/apps/mosquitto_passwd/get_password.h

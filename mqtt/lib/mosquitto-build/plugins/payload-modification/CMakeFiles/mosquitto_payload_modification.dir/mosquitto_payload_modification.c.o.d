@@ -1,5 +1,5 @@
 plugins/payload-modification/CMakeFiles/mosquitto_payload_modification.dir/mosquitto_payload_modification.c.o: \
- /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/plugins/payload-modification/mosquitto_payload_modification.c \
+ /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/plugins/payload-modification/mosquitto_payload_modification.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -27,7 +27,7 @@ plugins/payload-modification/CMakeFiles/mosquitto_payload_modification.dir/mosqu
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h \
- /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/include/mosquitto_broker.h \
+ /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/include/mosquitto_broker.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
@@ -44,6 +44,6 @@ plugins/payload-modification/CMakeFiles/mosquitto_payload_modification.dir/mosqu
  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
- /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/include/mosquitto_plugin.h \
- /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/include/mosquitto.h \
- /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/include/mqtt_protocol.h
+ /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/include/mosquitto_plugin.h \
+ /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/include/mosquitto.h \
+ /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/include/mqtt_protocol.h

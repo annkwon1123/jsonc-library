@@ -1,7 +1,7 @@
 apps/mosquitto_passwd/CMakeFiles/mosquitto_passwd.dir/__/__/src/memory_public.c.o: \
- /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/src/memory_public.c \
+ /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/src/memory_public.c \
  /usr/include/stdc-predef.h \
- /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/include/mosquitto_broker.h \
+ /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/include/mosquitto_broker.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
@@ -32,7 +32,7 @@ apps/mosquitto_passwd/CMakeFiles/mosquitto_passwd.dir/__/__/src/memory_public.c.
  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/lib/memory_mosq.h \
+ /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/lib/memory_mosq.h \
  /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \

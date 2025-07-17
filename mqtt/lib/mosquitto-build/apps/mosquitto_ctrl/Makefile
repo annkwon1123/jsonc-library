@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22
+CMAKE_SOURCE_DIR = /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kwonsoyeon/project.try4/lib/mosquitto-build
+CMAKE_BINARY_DIR = /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/kwonsoyeon/project.try4/lib/mosquitto-build && $(CMAKE_COMMAND) -E cmake_progress_start /home/kwonsoyeon/project.try4/lib/mosquitto-build/CMakeFiles /home/kwonsoyeon/project.try4/lib/mosquitto-build/apps/mosquitto_ctrl//CMakeFiles/progress.marks
-	cd /home/kwonsoyeon/project.try4/lib/mosquitto-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/mosquitto_ctrl/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kwonsoyeon/project.try4/lib/mosquitto-build/CMakeFiles 0
+	cd /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build && $(CMAKE_COMMAND) -E cmake_progress_start /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build/CMakeFiles /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build/apps/mosquitto_ctrl//CMakeFiles/progress.marks
+	cd /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/mosquitto_ctrl/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kwonsoyeon/project.try4/lib/mosquitto-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/mosquitto_ctrl/clean
+	cd /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/mosquitto_ctrl/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,17 +158,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kwonsoyeon/project.try4/lib/mosquitto-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/mosquitto_ctrl/preinstall
+	cd /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/mosquitto_ctrl/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kwonsoyeon/project.try4/lib/mosquitto-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/mosquitto_ctrl/preinstall
+	cd /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/mosquitto_ctrl/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/kwonsoyeon/project.try4/lib/mosquitto-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -195,6 +195,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/kwonsoyeon/project.try4/lib/mosquitto-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

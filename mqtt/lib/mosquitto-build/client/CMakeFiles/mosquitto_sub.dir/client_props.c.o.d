@@ -1,7 +1,7 @@
 client/CMakeFiles/mosquitto_sub.dir/client_props.c.o: \
- /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/client/client_props.c \
+ /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/client/client_props.c \
  /usr/include/stdc-predef.h \
- /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/config.h \
+ /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/config.h \
  /usr/include/x86_64-linux-gnu/openssl/opensslconf.h \
  /usr/include/x86_64-linux-gnu/openssl/configuration.h \
  /usr/include/openssl/macros.h /usr/include/openssl/opensslv.h \
@@ -74,12 +74,12 @@ client/CMakeFiles/mosquitto_sub.dir/client_props.c.o: \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
  /usr/include/linux/close_range.h \
- /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/include/mosquitto.h \
+ /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/include/mosquitto.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
- /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/include/mqtt_protocol.h \
- /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/client/client_shared.h \
+ /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/include/mqtt_protocol.h \
+ /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/client/client_shared.h \
  /usr/include/x86_64-linux-gnu/sys/time.h

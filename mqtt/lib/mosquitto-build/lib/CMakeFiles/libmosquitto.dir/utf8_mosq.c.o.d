@@ -1,7 +1,7 @@
 lib/CMakeFiles/libmosquitto.dir/utf8_mosq.c.o: \
- /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/lib/utf8_mosq.c \
+ /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/lib/utf8_mosq.c \
  /usr/include/stdc-predef.h \
- /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/config.h \
+ /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/config.h \
  /usr/include/x86_64-linux-gnu/openssl/opensslconf.h \
  /usr/include/x86_64-linux-gnu/openssl/configuration.h \
  /usr/include/openssl/macros.h /usr/include/openssl/opensslv.h \
@@ -29,7 +29,7 @@ lib/CMakeFiles/libmosquitto.dir/utf8_mosq.c.o: \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
- /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/include/mosquitto.h \
+ /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/include/mosquitto.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22
+CMAKE_SOURCE_DIR = /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kwonsoyeon/project.try4/lib/mosquitto-build
+CMAKE_BINARY_DIR = /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build
 
 # Utility rule file for mosquitto_ctrl_dynsec.1.
 
@@ -66,13 +66,13 @@ include man/CMakeFiles/mosquitto_ctrl_dynsec.1.dir/compiler_depend.make
 # Include the progress variables for this target.
 include man/CMakeFiles/mosquitto_ctrl_dynsec.1.dir/progress.make
 
-man/CMakeFiles/mosquitto_ctrl_dynsec.1: /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/man/mosquitto_ctrl_dynsec.1
+man/CMakeFiles/mosquitto_ctrl_dynsec.1: /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/man/mosquitto_ctrl_dynsec.1
 
-/home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/man/mosquitto_ctrl_dynsec.1: /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/man/mosquitto_ctrl_dynsec.1.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/kwonsoyeon/project.try4/lib/mosquitto-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/man/mosquitto_ctrl_dynsec.1"
-	cd /home/kwonsoyeon/project.try4/lib/mosquitto-build/man && xsltproc /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/man/mosquitto_ctrl_dynsec.1.xml -o /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/man/
+/home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/man/mosquitto_ctrl_dynsec.1: /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/man/mosquitto_ctrl_dynsec.1.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/man/mosquitto_ctrl_dynsec.1"
+	cd /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build/man && xsltproc /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/man/mosquitto_ctrl_dynsec.1.xml -o /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/man/
 
-mosquitto_ctrl_dynsec.1: /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/man/mosquitto_ctrl_dynsec.1
+mosquitto_ctrl_dynsec.1: /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/man/mosquitto_ctrl_dynsec.1
 mosquitto_ctrl_dynsec.1: man/CMakeFiles/mosquitto_ctrl_dynsec.1
 mosquitto_ctrl_dynsec.1: man/CMakeFiles/mosquitto_ctrl_dynsec.1.dir/build.make
 .PHONY : mosquitto_ctrl_dynsec.1
@@ -82,10 +82,10 @@ man/CMakeFiles/mosquitto_ctrl_dynsec.1.dir/build: mosquitto_ctrl_dynsec.1
 .PHONY : man/CMakeFiles/mosquitto_ctrl_dynsec.1.dir/build
 
 man/CMakeFiles/mosquitto_ctrl_dynsec.1.dir/clean:
-	cd /home/kwonsoyeon/project.try4/lib/mosquitto-build/man && $(CMAKE_COMMAND) -P CMakeFiles/mosquitto_ctrl_dynsec.1.dir/cmake_clean.cmake
+	cd /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build/man && $(CMAKE_COMMAND) -P CMakeFiles/mosquitto_ctrl_dynsec.1.dir/cmake_clean.cmake
 .PHONY : man/CMakeFiles/mosquitto_ctrl_dynsec.1.dir/clean
 
 man/CMakeFiles/mosquitto_ctrl_dynsec.1.dir/depend:
-	cd /home/kwonsoyeon/project.try4/lib/mosquitto-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22 /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/man /home/kwonsoyeon/project.try4/lib/mosquitto-build /home/kwonsoyeon/project.try4/lib/mosquitto-build/man /home/kwonsoyeon/project.try4/lib/mosquitto-build/man/CMakeFiles/mosquitto_ctrl_dynsec.1.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22 /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/man /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build/man /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build/man/CMakeFiles/mosquitto_ctrl_dynsec.1.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : man/CMakeFiles/mosquitto_ctrl_dynsec.1.dir/depend
 

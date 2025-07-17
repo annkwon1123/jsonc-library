@@ -1,12 +1,12 @@
 lib/CMakeFiles/libmosquitto_static.dir/srv_mosq.c.o: \
- /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/lib/srv_mosq.c \
+ /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/lib/srv_mosq.c \
  /usr/include/stdc-predef.h \
- /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/config.h \
+ /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/config.h \
  /usr/include/x86_64-linux-gnu/openssl/opensslconf.h \
  /usr/include/x86_64-linux-gnu/openssl/configuration.h \
  /usr/include/openssl/macros.h /usr/include/openssl/opensslv.h \
- /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/lib/logging_mosq.h \
- /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/include/mosquitto.h \
+ /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/lib/logging_mosq.h \
+ /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/include/mosquitto.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
@@ -25,7 +25,7 @@ lib/CMakeFiles/libmosquitto_static.dir/srv_mosq.c.o: \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
- /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/lib/memory_mosq.h \
+ /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/lib/memory_mosq.h \
  /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
@@ -58,7 +58,7 @@ lib/CMakeFiles/libmosquitto_static.dir/srv_mosq.c.o: \
  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
- /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/lib/mosquitto_internal.h \
+ /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/lib/mosquitto_internal.h \
  /usr/include/openssl/ssl.h /usr/include/openssl/e_os2.h \
  /usr/include/inttypes.h /usr/include/openssl/comp.h \
  /usr/include/openssl/crypto.h /usr/include/stdlib.h \
@@ -116,10 +116,10 @@ lib/CMakeFiles/libmosquitto_static.dir/srv_mosq.c.o: \
  /usr/include/openssl/prov_ssl.h /usr/include/openssl/ssl2.h \
  /usr/include/openssl/ssl3.h /usr/include/openssl/tls1.h \
  /usr/include/openssl/dtls1.h /usr/include/openssl/srtp.h \
- /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/lib/pthread_compat.h \
- /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/lib/time_mosq.h \
- /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/lib/util_mosq.h \
- /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/lib/tls_mosq.h \
+ /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/lib/pthread_compat.h \
+ /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/lib/time_mosq.h \
+ /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/lib/util_mosq.h \
+ /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/lib/tls_mosq.h \
  /usr/include/openssl/engine.h /usr/include/openssl/rand.h \
  /usr/include/openssl/randerr.h /usr/include/openssl/ui.h \
  /usr/include/openssl/uierr.h /usr/include/openssl/err.h \

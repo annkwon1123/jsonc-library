@@ -1,4 +1,4 @@
-# Install script for directory: /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/lib/cpp
+# Install script for directory: /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/lib/cpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -55,8 +55,8 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     endif()
   endforeach()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-    "/home/kwonsoyeon/project.try4/lib/mosquitto-build/lib/cpp/libmosquittopp.so.2.0.22"
-    "/home/kwonsoyeon/project.try4/lib/mosquitto-build/lib/cpp/libmosquittopp.so.1"
+    "/home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build/lib/cpp/libmosquittopp.so.2.0.22"
+    "/home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build/lib/cpp/libmosquittopp.so.1"
     )
   foreach(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmosquittopp.so.2.0.22"
@@ -66,7 +66,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
        NOT IS_SYMLINK "${file}")
       file(RPATH_CHANGE
            FILE "${file}"
-           OLD_RPATH "/home/kwonsoyeon/project.try4/lib/mosquitto-build/lib:"
+           OLD_RPATH "/home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build/lib:"
            NEW_RPATH "")
       if(CMAKE_INSTALL_DO_STRIP)
         execute_process(COMMAND "/usr/bin/strip" "${file}")
@@ -76,14 +76,14 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/kwonsoyeon/project.try4/lib/mosquitto-build/lib/cpp/libmosquittopp.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build/lib/cpp/libmosquittopp.so")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/kwonsoyeon/project.try4/lib/mosquitto-build/lib/cpp/libmosquittopp_static.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build/lib/cpp/libmosquittopp_static.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES "/home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/lib/cpp/mosquittopp.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES "/home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/lib/cpp/mosquittopp.h")
 endif()
 

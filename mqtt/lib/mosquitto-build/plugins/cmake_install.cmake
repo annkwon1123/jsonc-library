@@ -1,4 +1,4 @@
-# Install script for directory: /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/plugins
+# Install script for directory: /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/plugins
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,16 +44,16 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/kwonsoyeon/project.try4/lib/mosquitto-build/plugins/dynamic-security/cmake_install.cmake")
+  include("/home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build/plugins/dynamic-security/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/kwonsoyeon/project.try4/lib/mosquitto-build/plugins/message-timestamp/cmake_install.cmake")
+  include("/home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build/plugins/message-timestamp/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/kwonsoyeon/project.try4/lib/mosquitto-build/plugins/payload-modification/cmake_install.cmake")
+  include("/home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build/plugins/payload-modification/cmake_install.cmake")
 endif()
 

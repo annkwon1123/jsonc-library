@@ -1,7 +1,7 @@
 src/CMakeFiles/mosquitto.dir/password_mosq.c.o: \
- /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/src/password_mosq.c \
+ /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/src/password_mosq.c \
  /usr/include/stdc-predef.h \
- /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/config.h \
+ /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/config.h \
  /usr/include/x86_64-linux-gnu/openssl/opensslconf.h \
  /usr/include/x86_64-linux-gnu/openssl/configuration.h \
  /usr/include/openssl/macros.h /usr/include/openssl/opensslv.h \
@@ -128,10 +128,10 @@ src/CMakeFiles/mosquitto.dir/password_mosq.c.o: \
  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
  /usr/include/x86_64-linux-gnu/bits/signal_ext.h /usr/include/string.h \
  /usr/include/strings.h \
- /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/include/mosquitto.h \
+ /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/include/mosquitto.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
- /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/include/mosquitto_broker.h \
- /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/src/password_mosq.h \
+ /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/include/mosquitto_broker.h \
+ /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/src/password_mosq.h \
  /usr/include/termios.h /usr/include/x86_64-linux-gnu/bits/termios.h \
  /usr/include/x86_64-linux-gnu/bits/termios-struct.h \
  /usr/include/x86_64-linux-gnu/bits/termios-c_cc.h \

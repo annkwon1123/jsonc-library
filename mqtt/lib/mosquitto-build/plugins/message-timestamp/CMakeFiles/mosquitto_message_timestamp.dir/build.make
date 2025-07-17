@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22
+CMAKE_SOURCE_DIR = /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kwonsoyeon/project.try4/lib/mosquitto-build
+CMAKE_BINARY_DIR = /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build
 
 # Include any dependencies generated for this target.
 include plugins/message-timestamp/CMakeFiles/mosquitto_message_timestamp.dir/depend.make
@@ -70,18 +70,18 @@ include plugins/message-timestamp/CMakeFiles/mosquitto_message_timestamp.dir/pro
 include plugins/message-timestamp/CMakeFiles/mosquitto_message_timestamp.dir/flags.make
 
 plugins/message-timestamp/CMakeFiles/mosquitto_message_timestamp.dir/mosquitto_message_timestamp.c.o: plugins/message-timestamp/CMakeFiles/mosquitto_message_timestamp.dir/flags.make
-plugins/message-timestamp/CMakeFiles/mosquitto_message_timestamp.dir/mosquitto_message_timestamp.c.o: /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/plugins/message-timestamp/mosquitto_message_timestamp.c
+plugins/message-timestamp/CMakeFiles/mosquitto_message_timestamp.dir/mosquitto_message_timestamp.c.o: /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/plugins/message-timestamp/mosquitto_message_timestamp.c
 plugins/message-timestamp/CMakeFiles/mosquitto_message_timestamp.dir/mosquitto_message_timestamp.c.o: plugins/message-timestamp/CMakeFiles/mosquitto_message_timestamp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kwonsoyeon/project.try4/lib/mosquitto-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object plugins/message-timestamp/CMakeFiles/mosquitto_message_timestamp.dir/mosquitto_message_timestamp.c.o"
-	cd /home/kwonsoyeon/project.try4/lib/mosquitto-build/plugins/message-timestamp && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT plugins/message-timestamp/CMakeFiles/mosquitto_message_timestamp.dir/mosquitto_message_timestamp.c.o -MF CMakeFiles/mosquitto_message_timestamp.dir/mosquitto_message_timestamp.c.o.d -o CMakeFiles/mosquitto_message_timestamp.dir/mosquitto_message_timestamp.c.o -c /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/plugins/message-timestamp/mosquitto_message_timestamp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object plugins/message-timestamp/CMakeFiles/mosquitto_message_timestamp.dir/mosquitto_message_timestamp.c.o"
+	cd /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build/plugins/message-timestamp && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT plugins/message-timestamp/CMakeFiles/mosquitto_message_timestamp.dir/mosquitto_message_timestamp.c.o -MF CMakeFiles/mosquitto_message_timestamp.dir/mosquitto_message_timestamp.c.o.d -o CMakeFiles/mosquitto_message_timestamp.dir/mosquitto_message_timestamp.c.o -c /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/plugins/message-timestamp/mosquitto_message_timestamp.c
 
 plugins/message-timestamp/CMakeFiles/mosquitto_message_timestamp.dir/mosquitto_message_timestamp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/mosquitto_message_timestamp.dir/mosquitto_message_timestamp.c.i"
-	cd /home/kwonsoyeon/project.try4/lib/mosquitto-build/plugins/message-timestamp && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/plugins/message-timestamp/mosquitto_message_timestamp.c > CMakeFiles/mosquitto_message_timestamp.dir/mosquitto_message_timestamp.c.i
+	cd /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build/plugins/message-timestamp && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/plugins/message-timestamp/mosquitto_message_timestamp.c > CMakeFiles/mosquitto_message_timestamp.dir/mosquitto_message_timestamp.c.i
 
 plugins/message-timestamp/CMakeFiles/mosquitto_message_timestamp.dir/mosquitto_message_timestamp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/mosquitto_message_timestamp.dir/mosquitto_message_timestamp.c.s"
-	cd /home/kwonsoyeon/project.try4/lib/mosquitto-build/plugins/message-timestamp && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/plugins/message-timestamp/mosquitto_message_timestamp.c -o CMakeFiles/mosquitto_message_timestamp.dir/mosquitto_message_timestamp.c.s
+	cd /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build/plugins/message-timestamp && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/plugins/message-timestamp/mosquitto_message_timestamp.c -o CMakeFiles/mosquitto_message_timestamp.dir/mosquitto_message_timestamp.c.s
 
 # Object files for target mosquitto_message_timestamp
 mosquitto_message_timestamp_OBJECTS = \
@@ -93,18 +93,18 @@ mosquitto_message_timestamp_EXTERNAL_OBJECTS =
 plugins/message-timestamp/mosquitto_message_timestamp.so: plugins/message-timestamp/CMakeFiles/mosquitto_message_timestamp.dir/mosquitto_message_timestamp.c.o
 plugins/message-timestamp/mosquitto_message_timestamp.so: plugins/message-timestamp/CMakeFiles/mosquitto_message_timestamp.dir/build.make
 plugins/message-timestamp/mosquitto_message_timestamp.so: plugins/message-timestamp/CMakeFiles/mosquitto_message_timestamp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/kwonsoyeon/project.try4/lib/mosquitto-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared module mosquitto_message_timestamp.so"
-	cd /home/kwonsoyeon/project.try4/lib/mosquitto-build/plugins/message-timestamp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mosquitto_message_timestamp.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared module mosquitto_message_timestamp.so"
+	cd /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build/plugins/message-timestamp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mosquitto_message_timestamp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 plugins/message-timestamp/CMakeFiles/mosquitto_message_timestamp.dir/build: plugins/message-timestamp/mosquitto_message_timestamp.so
 .PHONY : plugins/message-timestamp/CMakeFiles/mosquitto_message_timestamp.dir/build
 
 plugins/message-timestamp/CMakeFiles/mosquitto_message_timestamp.dir/clean:
-	cd /home/kwonsoyeon/project.try4/lib/mosquitto-build/plugins/message-timestamp && $(CMAKE_COMMAND) -P CMakeFiles/mosquitto_message_timestamp.dir/cmake_clean.cmake
+	cd /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build/plugins/message-timestamp && $(CMAKE_COMMAND) -P CMakeFiles/mosquitto_message_timestamp.dir/cmake_clean.cmake
 .PHONY : plugins/message-timestamp/CMakeFiles/mosquitto_message_timestamp.dir/clean
 
 plugins/message-timestamp/CMakeFiles/mosquitto_message_timestamp.dir/depend:
-	cd /home/kwonsoyeon/project.try4/lib/mosquitto-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22 /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/plugins/message-timestamp /home/kwonsoyeon/project.try4/lib/mosquitto-build /home/kwonsoyeon/project.try4/lib/mosquitto-build/plugins/message-timestamp /home/kwonsoyeon/project.try4/lib/mosquitto-build/plugins/message-timestamp/CMakeFiles/mosquitto_message_timestamp.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22 /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/plugins/message-timestamp /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build/plugins/message-timestamp /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build/plugins/message-timestamp/CMakeFiles/mosquitto_message_timestamp.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : plugins/message-timestamp/CMakeFiles/mosquitto_message_timestamp.dir/depend
 

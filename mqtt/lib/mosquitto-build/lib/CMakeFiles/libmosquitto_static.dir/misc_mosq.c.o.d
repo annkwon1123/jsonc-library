@@ -1,7 +1,7 @@
 lib/CMakeFiles/libmosquitto_static.dir/misc_mosq.c.o: \
- /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/lib/misc_mosq.c \
+ /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/lib/misc_mosq.c \
  /usr/include/stdc-predef.h \
- /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/config.h \
+ /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/config.h \
  /usr/include/x86_64-linux-gnu/openssl/opensslconf.h \
  /usr/include/x86_64-linux-gnu/openssl/configuration.h \
  /usr/include/openssl/macros.h /usr/include/openssl/opensslv.h \
@@ -94,9 +94,9 @@ lib/CMakeFiles/libmosquitto_static.dir/misc_mosq.c.o: \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
  /usr/include/linux/close_range.h \
- /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/lib/misc_mosq.h \
- /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/lib/logging_mosq.h \
- /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/include/mosquitto.h \
+ /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/lib/misc_mosq.h \
+ /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/lib/logging_mosq.h \
+ /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/include/mosquitto.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \

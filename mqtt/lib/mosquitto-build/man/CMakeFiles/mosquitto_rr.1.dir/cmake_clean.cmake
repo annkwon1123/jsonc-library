@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/man/mosquitto_rr.1"
+  "/home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/man/mosquitto_rr.1"
   "CMakeFiles/mosquitto_rr.1"
 )
 

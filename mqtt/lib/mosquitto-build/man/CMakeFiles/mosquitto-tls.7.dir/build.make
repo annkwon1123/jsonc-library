@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22
+CMAKE_SOURCE_DIR = /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kwonsoyeon/project.try4/lib/mosquitto-build
+CMAKE_BINARY_DIR = /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build
 
 # Utility rule file for mosquitto-tls.7.
 
@@ -66,13 +66,13 @@ include man/CMakeFiles/mosquitto-tls.7.dir/compiler_depend.make
 # Include the progress variables for this target.
 include man/CMakeFiles/mosquitto-tls.7.dir/progress.make
 
-man/CMakeFiles/mosquitto-tls.7: /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/man/mosquitto-tls.7
+man/CMakeFiles/mosquitto-tls.7: /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/man/mosquitto-tls.7
 
-/home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/man/mosquitto-tls.7: /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/man/mosquitto-tls.7.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/kwonsoyeon/project.try4/lib/mosquitto-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/man/mosquitto-tls.7"
-	cd /home/kwonsoyeon/project.try4/lib/mosquitto-build/man && xsltproc /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/man/mosquitto-tls.7.xml -o /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/man/
+/home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/man/mosquitto-tls.7: /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/man/mosquitto-tls.7.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/man/mosquitto-tls.7"
+	cd /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build/man && xsltproc /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/man/mosquitto-tls.7.xml -o /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/man/
 
-mosquitto-tls.7: /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/man/mosquitto-tls.7
+mosquitto-tls.7: /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/man/mosquitto-tls.7
 mosquitto-tls.7: man/CMakeFiles/mosquitto-tls.7
 mosquitto-tls.7: man/CMakeFiles/mosquitto-tls.7.dir/build.make
 .PHONY : mosquitto-tls.7
@@ -82,10 +82,10 @@ man/CMakeFiles/mosquitto-tls.7.dir/build: mosquitto-tls.7
 .PHONY : man/CMakeFiles/mosquitto-tls.7.dir/build
 
 man/CMakeFiles/mosquitto-tls.7.dir/clean:
-	cd /home/kwonsoyeon/project.try4/lib/mosquitto-build/man && $(CMAKE_COMMAND) -P CMakeFiles/mosquitto-tls.7.dir/cmake_clean.cmake
+	cd /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build/man && $(CMAKE_COMMAND) -P CMakeFiles/mosquitto-tls.7.dir/cmake_clean.cmake
 .PHONY : man/CMakeFiles/mosquitto-tls.7.dir/clean
 
 man/CMakeFiles/mosquitto-tls.7.dir/depend:
-	cd /home/kwonsoyeon/project.try4/lib/mosquitto-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22 /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/man /home/kwonsoyeon/project.try4/lib/mosquitto-build /home/kwonsoyeon/project.try4/lib/mosquitto-build/man /home/kwonsoyeon/project.try4/lib/mosquitto-build/man/CMakeFiles/mosquitto-tls.7.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22 /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/man /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build/man /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-build/man/CMakeFiles/mosquitto-tls.7.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : man/CMakeFiles/mosquitto-tls.7.dir/depend
 

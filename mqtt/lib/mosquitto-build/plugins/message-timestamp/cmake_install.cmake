@@ -1,4 +1,4 @@
-# Install script for directory: /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/plugins/message-timestamp
+# Install script for directory: /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/plugins/message-timestamp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

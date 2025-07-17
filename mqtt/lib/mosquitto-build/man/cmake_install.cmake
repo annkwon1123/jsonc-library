@@ -1,4 +1,4 @@
-# Install script for directory: /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/man
+# Install script for directory: /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/man
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,31 +44,31 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/man/man1" TYPE FILE OPTIONAL FILES
-    "/home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/man/mosquitto_ctrl.1"
-    "/home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/man/mosquitto_ctrl_dynsec.1"
-    "/home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/man/mosquitto_passwd.1"
-    "/home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/man/mosquitto_pub.1"
-    "/home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/man/mosquitto_sub.1"
-    "/home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/man/mosquitto_rr.1"
+    "/home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/man/mosquitto_ctrl.1"
+    "/home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/man/mosquitto_ctrl_dynsec.1"
+    "/home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/man/mosquitto_passwd.1"
+    "/home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/man/mosquitto_pub.1"
+    "/home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/man/mosquitto_sub.1"
+    "/home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/man/mosquitto_rr.1"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/man/man3" TYPE FILE OPTIONAL FILES "/home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/man/libmosquitto.3")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/man/man3" TYPE FILE OPTIONAL FILES "/home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/man/libmosquitto.3")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/man/man5" TYPE FILE OPTIONAL FILES "/home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/man/mosquitto.conf.5")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/man/man5" TYPE FILE OPTIONAL FILES "/home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/man/mosquitto.conf.5")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/man/man7" TYPE FILE OPTIONAL FILES
-    "/home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/man/mosquitto-tls.7"
-    "/home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/man/mqtt.7"
+    "/home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/man/mosquitto-tls.7"
+    "/home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/man/mqtt.7"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/man/man8" TYPE FILE OPTIONAL FILES "/home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/man/mosquitto.8")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/man/man8" TYPE FILE OPTIONAL FILES "/home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/man/mosquitto.8")
 endif()
 

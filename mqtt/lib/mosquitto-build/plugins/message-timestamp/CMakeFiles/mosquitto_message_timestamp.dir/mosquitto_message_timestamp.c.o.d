@@ -1,7 +1,7 @@
 plugins/message-timestamp/CMakeFiles/mosquitto_message_timestamp.dir/mosquitto_message_timestamp.c.o: \
- /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/plugins/message-timestamp/mosquitto_message_timestamp.c \
+ /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/plugins/message-timestamp/mosquitto_message_timestamp.c \
  /usr/include/stdc-predef.h \
- /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/config.h \
+ /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/config.h \
  /usr/include/x86_64-linux-gnu/openssl/opensslconf.h \
  /usr/include/x86_64-linux-gnu/openssl/configuration.h \
  /usr/include/openssl/macros.h /usr/include/openssl/opensslv.h \
@@ -43,13 +43,13 @@ plugins/message-timestamp/CMakeFiles/mosquitto_message_timestamp.dir/mosquitto_m
  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/include/mosquitto_broker.h \
+ /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/include/mosquitto_broker.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
- /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/include/mosquitto_plugin.h \
- /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/include/mosquitto.h \
- /home/kwonsoyeon/project.try4/lib/mosquitto-2.0.22/include/mqtt_protocol.h
+ /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/include/mosquitto_plugin.h \
+ /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/include/mosquitto.h \
+ /home/kwonsoyeon/project.try4/mqtt/lib/mosquitto-2.0.22/include/mqtt_protocol.h
