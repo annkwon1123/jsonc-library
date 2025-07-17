@@ -24,17 +24,17 @@ int main()
 
 	mosquitto_message_callback_set(mosq, message_callback);
 	
-	char *erro;
+	int erro;
 	erro = mosquitto_connect(mosq, "192.168.70.196", 1883, 60);
 	if( erro != MOSQ_ERR_SUCCESS )
 	{
-		fprintf(stderr, "[ERROR] mosquitto_connect --> %s\n", erro);
+		fprintf(stderr, "[ERROR] mosquitto_connect --> %d\n", erro);
 	}
 	
 	erro = mosquitto_subscribe(mosq, NULL, "test/topic", 0);
 	if( erro != MOSQ_ERR_SUCCESS )
 	{
-		fprintf(stderr, "[ERROR] mosquitto_subscribe --> %s\n", erro);
+		fprintf(stderr, "[ERROR] mosquitto_subscribe --> %d\n", erro);
 	}
 
 	// 메인 루프에서 1개의 메시지 받을 때까지 대기

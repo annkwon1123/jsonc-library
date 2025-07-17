@@ -15,15 +15,15 @@ int main()
 		return 1;
 	}
 
-	if ( mosquitto_connect(mosq, "192.168.71.172", 1883, 60) != MOSQ_ERR_SUCCESS)
+	if ( mosquitto_connect(mosq, "192.168.71.172", 1883, 60) != MOSQ_ERR_SUCCESS);
 	{
 		fprintf(stderr, "[ERROR] mosquitto_connect\n");
 	}
-	char * erro;
-	erro = mosquitto_publish(mosq, NULL, "test/topic", 12, "Hello MQTT!", 0, false) 
+	int erro;
+	erro = mosquitto_publish(mosq, NULL, "test/topic", 12, "Hello MQTT!", 0, false);
 	if( erro != MOSQ_ERR_SUCCESS )
 	{
-		fprintf(stderr, "[ERROR] mosquitto_publish --> %s\n", erro);
+		fprintf(stderr, "[ERROR] mosquitto_publish --> %d\n", erro);
 	}
 	mosquitto_disconnect(mosq);
 	mosquitto_destroy(mosq);
