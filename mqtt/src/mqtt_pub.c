@@ -3,18 +3,28 @@
 
 int main() 
 {
-	mosquitto_lib_init();
+	if( mosquitto_lib_init() != MOSQ_ERR_SUCCESS )
+	{
+		fprintf(stderr, "[ERROR] mosquitto_lib_init\n");
+	}
 
 	struct mosquitto *mosq = mosquitto_new(NULL, true, NULL);
 	if ( !mosq )
 	{
-		fprintf(stderr, "Falied to create mosquitto object\n");
+		fprintf(stderr, "[ERROR] mosquitto_new\n");
 		return 1;
 	}
 
-	mosquitto_connect(mosq, "192.168.71.172", 1883, 60);
-
-	mosquitto_publish(mosq, NULL, "test/topic", 12, "Hello MQTT!", 0, false);
+	if ( mosquitto_connect(mosq, "192.168.71.172", 1883, 60) != MOSQ_ERR_SUCCESS)
+	{
+		fprintf(stderr, "[ERROR] mosquitto_connect\n");
+	}
+	char * erro;
+	erro = mosquitto_publish(mosq, NULL, "test/topic", 12, "Hello MQTT!", 0, false) 
+	if( erro != MOSQ_ERR_SUCCESS )
+	{
+		fprintf(stderr, "[ERROR] mosquitto_publish --> %s\n", erro);
+	}
 	mosquitto_disconnect(mosq);
 	mosquitto_destroy(mosq);
 	mosquitto_lib_cleanup();
