@@ -25,7 +25,7 @@ int main()
 	mosquitto_message_callback_set(mosq, message_callback);
 	
 	int erro;
-	erro = mosquitto_connect(mosq, "192.168.70.196", 1883, 60);
+	erro = mosquitto_connect(mosq, "192.168.71.172", 1883, 60);
 	if( erro != MOSQ_ERR_SUCCESS )
 	{
 		fprintf(stderr, "[ERROR] mosquitto_connect --> %d\n", erro);

@@ -15,7 +15,7 @@ int main()
 		return 1;
 	}
 
-	if ( mosquitto_connect(mosq, "192.168.71.172", 1883, 60) != MOSQ_ERR_SUCCESS);
+	if ( mosquitto_connect(mosq, "192.168.70.196", 1883, 60) != MOSQ_ERR_SUCCESS);
 	{
 		fprintf(stderr, "[ERROR] mosquitto_connect\n");
 	}
